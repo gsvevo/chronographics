@@ -1,0 +1,109 @@
+#console {
+  position: absolute;
+  width: 18%;
+  top: 69px;
+  right: 20.5%;
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(176, 188, 188) !important;
+  height: 25%;
+  color: #3a6461 !important;
+  padding: 15px;
+  max-height: 35%;
+  overflow: auto;
+  overflow-x: hidden;
+  letter-spacing: normal;
+  line-height: 1.4;
+  text-shadow: 1px 1px #83510636;
+  border-width: thin;
+  border-style: ridge;
+  border-color: #29251f6e;
+}
+
+section.range-slider {
+  position: relative;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+}
+
+section.range-slider input {
+  pointer-events: none;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: 15px;
+  width: 100%;
+  outline: none;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+input[type='range'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  &:focus {
+    outline: none;
+  }
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+  }
+  &::-moz-range-thumb {
+    border: none;
+  }
+}
+
+.range-style {
+  width: 400px;
+  height: 60px;
+  padding: 20px;
+  background: $primary;
+  border-radius: 10px;
+  box-shadow: -2px -2px 8px white, 2px 2px 8px rgba(black, 0.5);
+
+  @mixin track-style {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: inset -2px -2px 8px white, inset 2px 2px 8px rgba(black, 0.5);
+  }
+
+  @mixin thumb-style {
+    position: relative;
+    top: -50%;
+    width: 40px;
+    height: 40px;
+    background-color: $primary;
+    background-image: linear-gradient(-45deg, rgba(white, 0.8), transparent);
+    border-radius: 50%;
+    box-shadow: -1px -1px 2px white, 1px 1px 2px rgba(black, 0.3);
+  }
+  &::-webkit-slider-runnable-track {
+    @include track-style;
+  }
+  &::-webkit-slider-thumb {
+    @include thumb-style;
+  }
+  &::-moz-range-track {
+    @include track-style;
+  }
+  &::-moz-range-thumb {
+    @include thumb-style;
+  }
+}
+section.range-slider input::-webkit-slider-thumb {
+  pointer-events: all;
+  position: relative;
+  z-index: 1;
+  outline: 0;
+}
+
+section.range-slider input::-moz-range-thumb {
+  pointer-events: all;
+  position: relative;
+  z-index: 10;
+  -moz-appearance: none;
+  width: 9px;
+}

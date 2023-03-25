@@ -1,0 +1,5320 @@
+{
+  "type": "FeatureCollection",
+  "name": "placesPoly",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 0,
+        "Join_Count": 1,
+        "TARGET_FID": 0,
+        "Id": 1,
+        "placeGRIDCODE": 10100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1687,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1687,
+        "name": "Canada",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799426827, 0.015244703681075],
+            [-176.983824799418727, 0.015353271406749],
+            [-177.010785034273482, 0.015353271748055],
+            [-177.010785034268082, 0.015244704019962],
+            [-176.983824799426827, 0.015244703681075]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 1,
+        "Join_Count": 1,
+        "TARGET_FID": 1,
+        "Id": 2,
+        "placeGRIDCODE": 10200,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1675,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1675,
+        "name": "Nova Scotia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799434871, 0.0151361359554],
+            [-176.983824799426827, 0.015244703681075],
+            [-177.010785034268082, 0.015244704019962],
+            [-177.01078503426271, 0.015136136291868],
+            [-176.983824799434871, 0.0151361359554]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 2,
+        "Join_Count": 1,
+        "TARGET_FID": 2,
+        "Id": 3,
+        "placeGRIDCODE": 10301,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1666,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1666,
+        "name": "New England",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799438906, 0.015081852092562],
+            [-176.983824799434871, 0.0151361359554],
+            [-177.01078503426271, 0.015136136291868],
+            [-177.010785034260039, 0.01508185242782],
+            [-176.983824799438906, 0.015081852092562]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 3,
+        "Join_Count": 1,
+        "TARGET_FID": 3,
+        "Id": 4,
+        "placeGRIDCODE": 10302,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1660,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1660,
+        "name": "New York",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799442885, 0.015027568229724],
+            [-176.983824799438906, 0.015081852092562],
+            [-177.010785034260039, 0.01508185242782],
+            [-177.010785034257367, 0.015027568563772],
+            [-176.983824799442885, 0.015027568229724]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 4,
+        "Join_Count": 1,
+        "TARGET_FID": 4,
+        "Id": 5,
+        "placeGRIDCODE": 10401,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1655,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1655,
+        "name": "Pennsylvania",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799445529, 0.014991378987831],
+            [-176.983824799442885, 0.015027568229724],
+            [-177.010785034257367, 0.015027568563772],
+            [-177.010785034255633, 0.014991379321073],
+            [-176.983824799445529, 0.014991378987831]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 5,
+        "Join_Count": 1,
+        "TARGET_FID": 5,
+        "Id": 6,
+        "placeGRIDCODE": 10402,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1651,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1651,
+        "name": "Maryland",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799448172, 0.014955189745939],
+            [-176.983824799445529, 0.014991378987831],
+            [-177.010785034255633, 0.014991379321073],
+            [-177.010785034253843, 0.014955190078374],
+            [-176.983824799448172, 0.014955189745939]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 6,
+        "Join_Count": 1,
+        "TARGET_FID": 6,
+        "Id": 7,
+        "placeGRIDCODE": 10403,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1647,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1647,
+        "name": "Virginia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799450844, 0.014919000504046],
+            [-176.983824799448172, 0.014955189745939],
+            [-177.010785034253843, 0.014955190078374],
+            [-177.010785034252081, 0.014919000835675],
+            [-176.983824799450844, 0.014919000504046]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 7,
+        "Join_Count": 1,
+        "TARGET_FID": 7,
+        "Id": 8,
+        "placeGRIDCODE": 10501,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1642,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1642,
+        "name": "Carolina",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799454766, 0.014864716641207],
+            [-176.983824799450844, 0.014919000504046],
+            [-177.010785034252081, 0.014919000835675],
+            [-177.010785034249466, 0.014864716971626],
+            [-176.983824799454766, 0.014864716641207]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 8,
+        "Join_Count": 1,
+        "TARGET_FID": 8,
+        "Id": 9,
+        "placeGRIDCODE": 10502,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1636,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1636,
+        "name": "Georgia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799458688, 0.014810432778367],
+            [-176.983824799454766, 0.014864716641207],
+            [-177.010785034249466, 0.014864716971626],
+            [-177.010785034246851, 0.014810433107577],
+            [-176.983824799458688, 0.014810432778367]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 9,
+        "Join_Count": 1,
+        "TARGET_FID": 9,
+        "Id": 10,
+        "placeGRIDCODE": 10600,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1627,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1627,
+        "name": "Florida",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799466532, 0.014701865052687],
+            [-176.983824799458688, 0.014810432778367],
+            [-177.010785034246851, 0.014810433107577],
+            [-177.010785034241621, 0.014701865379478],
+            [-176.983824799466532, 0.014701865052687]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 10,
+        "Join_Count": 1,
+        "TARGET_FID": 10,
+        "Id": 11,
+        "placeGRIDCODE": 10701,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1618,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1618,
+        "name": "Louisiana (eastern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799470398, 0.014647581189846],
+            [-176.983824799466532, 0.014701865052687],
+            [-177.010785034241621, 0.014701865379478],
+            [-177.010785034239035, 0.014647581515428],
+            [-176.983824799470398, 0.014647581189846]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 11,
+        "Join_Count": 1,
+        "TARGET_FID": 11,
+        "Id": 12,
+        "placeGRIDCODE": 10702,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1612,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1612,
+        "name": "Louisiana (western)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799474291, 0.014593297327006],
+            [-176.983824799470398, 0.014647581189846],
+            [-177.010785034239035, 0.014647581515428],
+            [-177.010785034236449, 0.014593297651377],
+            [-176.983824799474291, 0.014593297327006]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 12,
+        "Join_Count": 1,
+        "TARGET_FID": 12,
+        "Id": 13,
+        "placeGRIDCODE": 10800,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1603,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1603,
+        "name": "Mexico",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799481994, 0.014484729601323],
+            [-176.983824799474291, 0.014593297327006],
+            [-177.010785034236449, 0.014593297651377],
+            [-177.010785034231304, 0.014484729923276],
+            [-176.983824799481994, 0.014484729601323]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 13,
+        "Join_Count": 1,
+        "TARGET_FID": 13,
+        "Id": 14,
+        "placeGRIDCODE": 10900,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1591,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1591,
+        "name": "Chili",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799489639, 0.01437616187564],
+            [-176.983824799481994, 0.014484729601323],
+            [-177.010785034231304, 0.014484729923276],
+            [-177.010785034226217, 0.014376162195173],
+            [-176.983824799489639, 0.01437616187564]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 14,
+        "Join_Count": 1,
+        "TARGET_FID": 14,
+        "Id": 15,
+        "placeGRIDCODE": 11000,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1579,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1579,
+        "name": "Peru",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799497228, 0.014267594149955],
+            [-176.983824799489639, 0.01437616187564],
+            [-177.010785034226217, 0.014376162195173],
+            [-177.010785034221158, 0.014267594467069],
+            [-176.983824799497228, 0.014267594149955]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 15,
+        "Join_Count": 1,
+        "TARGET_FID": 15,
+        "Id": 16,
+        "placeGRIDCODE": 11101,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1570,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1570,
+        "name": "Terra Firma (northern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799501008, 0.014213310287112],
+            [-176.983824799497228, 0.014267594149955],
+            [-177.010785034221158, 0.014267594467069],
+            [-177.010785034218628, 0.014213310603016],
+            [-176.983824799501008, 0.014213310287112]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 16,
+        "Join_Count": 1,
+        "TARGET_FID": 16,
+        "Id": 17,
+        "placeGRIDCODE": 11102,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1564,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1564,
+        "name": "Terra Firma (southern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.98382479950476, 0.014159026424269],
+            [-176.983824799501008, 0.014213310287112],
+            [-177.010785034218628, 0.014213310603016],
+            [-177.010785034216127, 0.014159026738964],
+            [-176.98382479950476, 0.014159026424269]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 17,
+        "Join_Count": 1,
+        "TARGET_FID": 17,
+        "Id": 18,
+        "placeGRIDCODE": 11201,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1558,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1558,
+        "name": "Brasil (northern provinces)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799508511, 0.014104742561425],
+            [-176.98382479950476, 0.014159026424269],
+            [-177.010785034216127, 0.014159026738964],
+            [-177.010785034213654, 0.014104742874911],
+            [-176.983824799508511, 0.014104742561425]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 18,
+        "Join_Count": 1,
+        "TARGET_FID": 18,
+        "Id": 19,
+        "placeGRIDCODE": 11202,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1552,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1552,
+        "name": "Brasil (southern provinces)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 1,
+        "region": "America"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799512263, 0.014050458698582],
+            [-176.983824799508511, 0.014104742561425],
+            [-177.010785034213654, 0.014104742874911],
+            [-177.010785034211153, 0.014050459010857],
+            [-176.983824799512263, 0.014050458698582]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 19,
+        "Join_Count": 1,
+        "TARGET_FID": 19,
+        "Id": 20,
+        "placeGRIDCODE": 20100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1543,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1543,
+        "name": "Morocco",
+        "PLACEIDstr": " ",
+        "region_gridcode": 2,
+        "region": "Africa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799519653, 0.013941890972893],
+            [-176.983824799512263, 0.014050458698582],
+            [-177.010785034211153, 0.014050459010857],
+            [-177.010785034206179, 0.01394189128275],
+            [-176.983824799519653, 0.013941890972893]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 20,
+        "Join_Count": 1,
+        "TARGET_FID": 20,
+        "Id": 21,
+        "placeGRIDCODE": 20200,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1531,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1531,
+        "name": "Tremecen",
+        "PLACEIDstr": " ",
+        "region_gridcode": 2,
+        "region": "Africa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799527014, 0.013833323247204],
+            [-176.983824799519653, 0.013941890972893],
+            [-177.010785034206179, 0.01394189128275],
+            [-177.010785034201291, 0.013833323554641],
+            [-176.983824799527014, 0.013833323247204]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 21,
+        "Join_Count": 1,
+        "TARGET_FID": 21,
+        "Id": 22,
+        "placeGRIDCODE": 20300,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1519,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1519,
+        "name": "Algiers",
+        "PLACEIDstr": " ",
+        "region_gridcode": 2,
+        "region": "Africa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799534318, 0.013724755521513],
+            [-176.983824799527014, 0.013833323247204],
+            [-177.010785034201291, 0.013833323554641],
+            [-177.010785034196402, 0.013724755826532],
+            [-176.983824799534318, 0.013724755521513]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 22,
+        "Join_Count": 1,
+        "TARGET_FID": 22,
+        "Id": 23,
+        "placeGRIDCODE": 20400,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1507,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1507,
+        "name": "Tunis",
+        "PLACEIDstr": " ",
+        "region_gridcode": 2,
+        "region": "Africa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799541566, 0.013616187795822],
+            [-176.983824799534318, 0.013724755521513],
+            [-177.010785034196402, 0.013724755826532],
+            [-177.010785034191571, 0.013616188098421],
+            [-176.983824799541566, 0.013616187795822]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 23,
+        "Join_Count": 1,
+        "TARGET_FID": 23,
+        "Id": 24,
+        "placeGRIDCODE": 20500,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1495,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1495,
+        "name": "Tripoli",
+        "PLACEIDstr": " ",
+        "region_gridcode": 2,
+        "region": "Africa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799548756, 0.013507620070129],
+            [-176.983824799541566, 0.013616187795822],
+            [-177.010785034191571, 0.013616188098421],
+            [-177.010785034186796, 0.013507620370309],
+            [-176.983824799548756, 0.013507620070129]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 24,
+        "Join_Count": 1,
+        "TARGET_FID": 24,
+        "Id": 25,
+        "placeGRIDCODE": 20601,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1487,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1487,
+        "name": "Egypt (lower Nile) 1",
+        "PLACEIDstr": " ",
+        "region_gridcode": 2,
+        "region": "Africa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799551144, 0.013471430828231],
+            [-176.983824799548756, 0.013507620070129],
+            [-177.010785034186796, 0.013507620370309],
+            [-177.010785034185233, 0.013471431127605],
+            [-176.983824799551144, 0.013471430828231]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 25,
+        "Join_Count": 1,
+        "TARGET_FID": 25,
+        "Id": 26,
+        "placeGRIDCODE": 20602,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1483,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1483,
+        "name": "Egypt (lower Nile) 2",
+        "PLACEIDstr": " ",
+        "region_gridcode": 2,
+        "region": "Africa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799553531, 0.013435241586333],
+            [-176.983824799551144, 0.013471430828231],
+            [-177.010785034185233, 0.013471431127605],
+            [-177.010785034183613, 0.0134352418849],
+            [-176.983824799553531, 0.013435241586333]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 26,
+        "Join_Count": 1,
+        "TARGET_FID": 26,
+        "Id": 27,
+        "placeGRIDCODE": 20603,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1479,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1479,
+        "name": "Egypt (lower Nile) 3",
+        "PLACEIDstr": " ",
+        "region_gridcode": 2,
+        "region": "Africa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799555862, 0.013399052344435],
+            [-176.983824799553531, 0.013435241586333],
+            [-177.010785034183613, 0.0134352418849],
+            [-177.010785034182049, 0.013399052642196],
+            [-176.983824799555862, 0.013399052344435]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 27,
+        "Join_Count": 1,
+        "TARGET_FID": 27,
+        "Id": 28,
+        "placeGRIDCODE": 20701,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1475,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1475,
+        "name": "Egypt (upper Nile) 1",
+        "PLACEIDstr": " ",
+        "region_gridcode": 2,
+        "region": "Africa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799558221, 0.013362863102537],
+            [-176.983824799555862, 0.013399052344435],
+            [-177.010785034182049, 0.013399052642196],
+            [-177.010785034180458, 0.013362863399491],
+            [-176.983824799558221, 0.013362863102537]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 28,
+        "Join_Count": 1,
+        "TARGET_FID": 28,
+        "Id": 29,
+        "placeGRIDCODE": 20702,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1471,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1471,
+        "name": "Egypt (upper Nile) 2",
+        "PLACEIDstr": " ",
+        "region_gridcode": 2,
+        "region": "Africa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799560608, 0.013326673860639],
+            [-176.983824799558221, 0.013362863102537],
+            [-177.010785034180458, 0.013362863399491],
+            [-177.010785034178923, 0.013326674156787],
+            [-176.983824799560608, 0.013326673860639]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 29,
+        "Join_Count": 1,
+        "TARGET_FID": 29,
+        "Id": 30,
+        "placeGRIDCODE": 20703,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1467,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1467,
+        "name": "Egypt (upper Nile) 3",
+        "PLACEIDstr": " ",
+        "region_gridcode": 2,
+        "region": "Africa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799562939, 0.01329048461874],
+            [-176.983824799560608, 0.013326673860639],
+            [-177.010785034178923, 0.013326674156787],
+            [-177.010785034177331, 0.013290484914082],
+            [-176.983824799562939, 0.01329048461874]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 30,
+        "Join_Count": 1,
+        "TARGET_FID": 30,
+        "Id": 31,
+        "placeGRIDCODE": 20800,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1459,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1459,
+        "name": "Ethiopia and Abyssinia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 2,
+        "region": "Africa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799569931, 0.013181916893044],
+            [-176.983824799562939, 0.01329048461874],
+            [-177.010785034177331, 0.013290484914082],
+            [-177.010785034172642, 0.013181917185966],
+            [-176.983824799569931, 0.013181916893044]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 31,
+        "Join_Count": 1,
+        "TARGET_FID": 31,
+        "Id": 32,
+        "placeGRIDCODE": 30100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1447,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1447,
+        "name": "Japan",
+        "PLACEIDstr": " ",
+        "region_gridcode": 3,
+        "region": "China"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799576894, 0.013073349167347],
+            [-176.983824799569931, 0.013181916893044],
+            [-177.010785034172642, 0.013181917185966],
+            [-177.010785034168009, 0.01307334945785],
+            [-176.983824799576894, 0.013073349167347]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 32,
+        "Join_Count": 1,
+        "TARGET_FID": 32,
+        "Id": 33,
+        "placeGRIDCODE": 30200,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1435,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1435,
+        "name": "Korea",
+        "PLACEIDstr": " ",
+        "region_gridcode": 3,
+        "region": "China"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.9838247995838, 0.012964781441649],
+            [-176.983824799576894, 0.013073349167347],
+            [-177.010785034168009, 0.01307334945785],
+            [-177.010785034163405, 0.012964781729733],
+            [-176.9838247995838, 0.012964781441649]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 33,
+        "Join_Count": 1,
+        "TARGET_FID": 33,
+        "Id": 34,
+        "placeGRIDCODE": 30300,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1423,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1423,
+        "name": "Leautong",
+        "PLACEIDstr": " ",
+        "region_gridcode": 3,
+        "region": "China"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.98382479959065, 0.01285621371595],
+            [-176.9838247995838, 0.012964781441649],
+            [-177.010785034163405, 0.012964781729733],
+            [-177.010785034158857, 0.012856214001614],
+            [-176.98382479959065, 0.01285621371595]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 34,
+        "Join_Count": 1,
+        "TARGET_FID": 34,
+        "Id": 35,
+        "placeGRIDCODE": 30401,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1414,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1414,
+        "name": "Kin (Jin) China",
+        "PLACEIDstr": " ",
+        "region_gridcode": 3,
+        "region": "China"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799594032, 0.012801929853099],
+            [-176.98382479959065, 0.01285621371595],
+            [-177.010785034158857, 0.012856214001614],
+            [-177.010785034156584, 0.012801930137555],
+            [-176.983824799594032, 0.012801929853099]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 35,
+        "Join_Count": 1,
+        "TARGET_FID": 35,
+        "Id": 36,
+        "placeGRIDCODE": 30402,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1408,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1408,
+        "name": "Chansi",
+        "PLACEIDstr": " ",
+        "region_gridcode": 3,
+        "region": "China"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799597414, 0.012747645990249],
+            [-176.983824799594032, 0.012801929853099],
+            [-177.010785034156584, 0.012801930137555],
+            [-177.010785034154338, 0.012747646273495],
+            [-176.983824799597414, 0.012747645990249]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 36,
+        "Join_Count": 1,
+        "TARGET_FID": 36,
+        "Id": 37,
+        "placeGRIDCODE": 30501,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1402,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1402,
+        "name": "Song China",
+        "PLACEIDstr": " ",
+        "region_gridcode": 3,
+        "region": "China"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799600796, 0.012693362127399],
+            [-176.983824799597414, 0.012747645990249],
+            [-177.010785034154338, 0.012747646273495],
+            [-177.010785034152093, 0.012693362409435],
+            [-176.983824799600796, 0.012693362127399]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 37,
+        "Join_Count": 1,
+        "TARGET_FID": 37,
+        "Id": 38,
+        "placeGRIDCODE": 30502,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1396,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1396,
+        "name": "Southern Song",
+        "PLACEIDstr": " ",
+        "region_gridcode": 3,
+        "region": "China"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.98382479960415, 0.012639078264548],
+            [-176.983824799600796, 0.012693362127399],
+            [-177.010785034152093, 0.012693362409435],
+            [-177.010785034149848, 0.012639078545374],
+            [-176.98382479960415, 0.012639078264548]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 38,
+        "Join_Count": 1,
+        "TARGET_FID": 38,
+        "Id": 39,
+        "placeGRIDCODE": 30601,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1391,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1391,
+        "name": "Tangut",
+        "PLACEIDstr": " ",
+        "region_gridcode": 3,
+        "region": "China"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799606367, 0.012602889022647],
+            [-176.98382479960415, 0.012639078264548],
+            [-177.010785034149848, 0.012639078545374],
+            [-177.01078503414837, 0.012602889302667],
+            [-176.983824799606367, 0.012602889022647]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 39,
+        "Join_Count": 1,
+        "TARGET_FID": 39,
+        "Id": 40,
+        "placeGRIDCODE": 30602,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1387,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1387,
+        "name": "Tibet",
+        "PLACEIDstr": " ",
+        "region_gridcode": 3,
+        "region": "China"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799608612, 0.012566699780746],
+            [-176.983824799606367, 0.012602889022647],
+            [-177.01078503414837, 0.012602889302667],
+            [-177.010785034146863, 0.01256670005996],
+            [-176.983824799608612, 0.012566699780746]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 40,
+        "Join_Count": 1,
+        "TARGET_FID": 40,
+        "Id": 41,
+        "placeGRIDCODE": 30603,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1383,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1383,
+        "name": "Greater Tibet",
+        "PLACEIDstr": " ",
+        "region_gridcode": 3,
+        "region": "China"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799610829, 0.012530510538845],
+            [-176.983824799608612, 0.012566699780746],
+            [-177.010785034146863, 0.01256670005996],
+            [-177.010785034145385, 0.012530510817253],
+            [-176.983824799610829, 0.012530510538845]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 41,
+        "Join_Count": 1,
+        "TARGET_FID": 41,
+        "Id": 42,
+        "placeGRIDCODE": 30700,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1375,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1375,
+        "name": "Mogulestan",
+        "PLACEIDstr": " ",
+        "region_gridcode": 3,
+        "region": "China"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799617452, 0.012421942813142],
+            [-176.983824799610829, 0.012530510538845],
+            [-177.010785034145385, 0.012530510817253],
+            [-177.010785034141009, 0.01242194308913],
+            [-176.983824799617452, 0.012421942813142]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 42,
+        "Join_Count": 1,
+        "TARGET_FID": 42,
+        "Id": 43,
+        "placeGRIDCODE": 30800,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1363,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1363,
+        "name": "Khalka",
+        "PLACEIDstr": " ",
+        "region_gridcode": 3,
+        "region": "China"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799623989, 0.012313375087437],
+            [-176.983824799617452, 0.012421942813142],
+            [-177.010785034141009, 0.01242194308913],
+            [-177.010785034136632, 0.012313375361006],
+            [-176.983824799623989, 0.012313375087437]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 43,
+        "Join_Count": 1,
+        "TARGET_FID": 43,
+        "Id": 44,
+        "placeGRIDCODE": 40100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1351,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1351,
+        "name": "Eluth",
+        "PLACEIDstr": " ",
+        "region_gridcode": 4,
+        "region": "Western Tartary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799630469, 0.012204807361732],
+            [-176.983824799623989, 0.012313375087437],
+            [-177.010785034136632, 0.012313375361006],
+            [-177.010785034132283, 0.012204807632882],
+            [-176.983824799630469, 0.012204807361732]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 44,
+        "Join_Count": 1,
+        "TARGET_FID": 44,
+        "Id": 45,
+        "placeGRIDCODE": 50100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1339,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1339,
+        "name": "Golkonda",
+        "PLACEIDstr": " ",
+        "region_gridcode": 5,
+        "region": "India"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799636892, 0.012096239636025],
+            [-176.983824799630469, 0.012204807361732],
+            [-177.010785034132283, 0.012204807632882],
+            [-177.01078503412802, 0.012096239904756],
+            [-176.983824799636892, 0.012096239636025]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 45,
+        "Join_Count": 1,
+        "TARGET_FID": 45,
+        "Id": 46,
+        "placeGRIDCODE": 50200,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1327,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1327,
+        "name": "Visapour",
+        "PLACEIDstr": " ",
+        "region_gridcode": 5,
+        "region": "India"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799643287, 0.011987671910318],
+            [-176.983824799636892, 0.012096239636025],
+            [-177.01078503412802, 0.012096239904756],
+            [-177.010785034123757, 0.011987672176629],
+            [-176.983824799643287, 0.011987671910318]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 46,
+        "Join_Count": 1,
+        "TARGET_FID": 46,
+        "Id": 47,
+        "placeGRIDCODE": 50301,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1318,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1318,
+        "name": "Guzerat",
+        "PLACEIDstr": " ",
+        "region_gridcode": 5,
+        "region": "India"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.98382479964647, 0.011933388047464],
+            [-176.983824799643287, 0.011987671910318],
+            [-177.010785034123757, 0.011987672176629],
+            [-177.010785034121625, 0.011933388312566],
+            [-176.98382479964647, 0.011933388047464]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 47,
+        "Join_Count": 1,
+        "TARGET_FID": 47,
+        "Id": 48,
+        "placeGRIDCODE": 50302,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1312,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1312,
+        "name": "Bengal",
+        "PLACEIDstr": " ",
+        "region_gridcode": 5,
+        "region": "India"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799649625, 0.011879104184609],
+            [-176.98382479964647, 0.011933388047464],
+            [-177.010785034121625, 0.011933388312566],
+            [-177.01078503411955, 0.011879104448502],
+            [-176.983824799649625, 0.011879104184609]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 48,
+        "Join_Count": 1,
+        "TARGET_FID": 48,
+        "Id": 49,
+        "placeGRIDCODE": 50400,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1303,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1303,
+        "name": "Indostan (central)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 5,
+        "region": "India"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799655878, 0.0117705364589],
+            [-176.983824799649625, 0.011879104184609],
+            [-177.01078503411955, 0.011879104448502],
+            [-177.010785034115372, 0.011770536720373],
+            [-176.983824799655878, 0.0117705364589]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 49,
+        "Join_Count": 1,
+        "TARGET_FID": 49,
+        "Id": 50,
+        "placeGRIDCODE": 50500,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1291,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1291,
+        "name": "Indostan (northern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 5,
+        "region": "India"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799662102, 0.01166196873319],
+            [-176.983824799655878, 0.0117705364589],
+            [-177.010785034115372, 0.011770536720373],
+            [-177.010785034111223, 0.011661968992243],
+            [-176.983824799662102, 0.01166196873319]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 50,
+        "Join_Count": 1,
+        "TARGET_FID": 50,
+        "Id": 51,
+        "placeGRIDCODE": 40200,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1279,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1279,
+        "name": "Turkestan",
+        "PLACEIDstr": " ",
+        "region_gridcode": 4,
+        "region": "Western Tartary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799668241, 0.011553401007478],
+            [-176.983824799662102, 0.01166196873319],
+            [-177.010785034111223, 0.011661968992243],
+            [-177.01078503410713, 0.011553401264113],
+            [-176.983824799668241, 0.011553401007478]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 51,
+        "Join_Count": 1,
+        "TARGET_FID": 51,
+        "Id": 52,
+        "placeGRIDCODE": 40301,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1270,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1270,
+        "name": "Karasm (northern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 4,
+        "region": "Western Tartary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799671282, 0.011499117144622],
+            [-176.983824799668241, 0.011553401007478],
+            [-177.01078503410713, 0.011553401264113],
+            [-177.010785034105083, 0.011499117400047],
+            [-176.983824799671282, 0.011499117144622]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 52,
+        "Join_Count": 1,
+        "TARGET_FID": 52,
+        "Id": 53,
+        "placeGRIDCODE": 40302,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1264,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1264,
+        "name": "Karasm (southern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 4,
+        "region": "Western Tartary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799674323, 0.011444833281766],
+            [-176.983824799671282, 0.011499117144622],
+            [-177.010785034105083, 0.011499117400047],
+            [-177.010785034103066, 0.011444833535981],
+            [-176.983824799674323, 0.011444833281766]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 53,
+        "Join_Count": 1,
+        "TARGET_FID": 53,
+        "Id": 54,
+        "placeGRIDCODE": 40400,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1255,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1255,
+        "name": "Great Buccharia or Mawarahlnar",
+        "PLACEIDstr": " ",
+        "region_gridcode": 4,
+        "region": "Western Tartary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799680377, 0.011336265556052],
+            [-176.983824799674323, 0.011444833281766],
+            [-177.010785034103066, 0.011444833535981],
+            [-177.01078503409903, 0.011336265807849],
+            [-176.983824799680377, 0.011336265556052]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 54,
+        "Join_Count": 1,
+        "TARGET_FID": 54,
+        "Id": 55,
+        "placeGRIDCODE": 60100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1243,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1243,
+        "name": "Chorasan",
+        "PLACEIDstr": " ",
+        "region_gridcode": 6,
+        "region": "Persia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799686346, 0.011227697830338],
+            [-176.983824799680377, 0.011336265556052],
+            [-177.01078503409903, 0.011336265807849],
+            [-177.010785034095079, 0.011227698079715],
+            [-176.983824799686346, 0.011227697830338]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 55,
+        "Join_Count": 1,
+        "TARGET_FID": 55,
+        "Id": 56,
+        "placeGRIDCODE": 60200,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1231,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1231,
+        "name": "Candahar",
+        "PLACEIDstr": " ",
+        "region_gridcode": 6,
+        "region": "Persia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799692258, 0.011119130104623],
+            [-176.983824799686346, 0.011227697830338],
+            [-177.010785034095079, 0.011227698079715],
+            [-177.010785034091128, 0.011119130351581],
+            [-176.983824799692258, 0.011119130104623]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 56,
+        "Join_Count": 1,
+        "TARGET_FID": 56,
+        "Id": 57,
+        "placeGRIDCODE": 60300,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1219,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1219,
+        "name": "Media",
+        "PLACEIDstr": " ",
+        "region_gridcode": 6,
+        "region": "Persia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799698112, 0.011010562378907],
+            [-176.983824799692258, 0.011119130104623],
+            [-177.010785034091128, 0.011119130351581],
+            [-177.010785034087206, 0.011010562623445],
+            [-176.983824799698112, 0.011010562378907]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 57,
+        "Join_Count": 1,
+        "TARGET_FID": 57,
+        "Id": 58,
+        "placeGRIDCODE": 60400,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1207,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1207,
+        "name": "Persia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 6,
+        "region": "Persia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799703939, 0.01090199465319],
+            [-176.983824799698112, 0.011010562378907],
+            [-177.010785034087206, 0.011010562623445],
+            [-177.010785034083341, 0.010901994895309],
+            [-176.983824799703939, 0.01090199465319]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 58,
+        "Join_Count": 1,
+        "TARGET_FID": 58,
+        "Id": 59,
+        "placeGRIDCODE": 70100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1195,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1195,
+        "name": "Babylonia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 7,
+        "region": "Turky in Asia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.98382479970968, 0.010793426927472],
+            [-176.983824799703939, 0.01090199465319],
+            [-177.010785034083341, 0.010901994895309],
+            [-177.010785034079504, 0.010793427167172],
+            [-176.98382479970968, 0.010793426927472]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 59,
+        "Join_Count": 1,
+        "TARGET_FID": 59,
+        "Id": 60,
+        "placeGRIDCODE": 70200,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1183,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1183,
+        "name": "Assyria",
+        "PLACEIDstr": " ",
+        "region_gridcode": 7,
+        "region": "Turky in Asia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799715364, 0.010684859201753],
+            [-176.98382479970968, 0.010793426927472],
+            [-177.010785034079504, 0.010793427167172],
+            [-177.010785034075695, 0.010684859439034],
+            [-176.983824799715364, 0.010684859201753]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 60,
+        "Join_Count": 1,
+        "TARGET_FID": 60,
+        "Id": 61,
+        "placeGRIDCODE": 70300,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1171,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1171,
+        "name": "Mesopotamia or Diarbekr",
+        "PLACEIDstr": " ",
+        "region_gridcode": 7,
+        "region": "Turky in Asia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799720963, 0.010576291476033],
+            [-176.983824799715364, 0.010684859201753],
+            [-177.010785034075695, 0.010684859439034],
+            [-177.010785034071972, 0.010576291710895],
+            [-176.983824799720963, 0.010576291476033]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 61,
+        "Join_Count": 1,
+        "TARGET_FID": 61,
+        "Id": 62,
+        "placeGRIDCODE": 70400,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1159,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1159,
+        "name": "Syria",
+        "PLACEIDstr": " ",
+        "region_gridcode": 7,
+        "region": "Turky in Asia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799726534, 0.010467723750312],
+            [-176.983824799720963, 0.010576291476033],
+            [-177.010785034071972, 0.010576291710895],
+            [-177.010785034068249, 0.010467723982755],
+            [-176.983824799726534, 0.010467723750312]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 62,
+        "Join_Count": 1,
+        "TARGET_FID": 62,
+        "Id": 63,
+        "placeGRIDCODE": 70500,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1147,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1147,
+        "name": "Tyre",
+        "PLACEIDstr": " ",
+        "region_gridcode": 7,
+        "region": "Turky in Asia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799732076, 0.01035915602459],
+            [-176.983824799726534, 0.010467723750312],
+            [-177.010785034068249, 0.010467723982755],
+            [-177.010785034064554, 0.010359156254614],
+            [-176.983824799732076, 0.01035915602459]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 63,
+        "Join_Count": 1,
+        "TARGET_FID": 63,
+        "Id": 64,
+        "placeGRIDCODE": 70600,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1135,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1135,
+        "name": "Israel",
+        "PLACEIDstr": " ",
+        "region_gridcode": 7,
+        "region": "Turky in Asia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799737533, 0.010250588298868],
+            [-176.983824799732076, 0.01035915602459],
+            [-177.010785034064554, 0.010359156254614],
+            [-177.010785034060916, 0.010250588526472],
+            [-176.983824799737533, 0.010250588298868]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 64,
+        "Join_Count": 1,
+        "TARGET_FID": 64,
+        "Id": 65,
+        "placeGRIDCODE": 70700,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1123,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1123,
+        "name": "Judea",
+        "PLACEIDstr": " ",
+        "region_gridcode": 7,
+        "region": "Turky in Asia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799742933, 0.010142020573145],
+            [-176.983824799737533, 0.010250588298868],
+            [-177.010785034060916, 0.010250588526472],
+            [-177.010785034057335, 0.01014202079833],
+            [-176.983824799742933, 0.010142020573145]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 65,
+        "Join_Count": 1,
+        "TARGET_FID": 65,
+        "Id": 66,
+        "placeGRIDCODE": 80101,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1115,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1115,
+        "name": "Arabia (northern and eastern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 8,
+        "region": "Arabia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799744724, 0.010105831331237],
+            [-176.983824799742933, 0.010142020573145],
+            [-177.010785034057335, 0.01014202079833],
+            [-177.010785034056141, 0.010105831555616],
+            [-176.983824799744724, 0.010105831331237]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 66,
+        "Join_Count": 1,
+        "TARGET_FID": 66,
+        "Id": 67,
+        "placeGRIDCODE": 80102,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1111,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1111,
+        "name": "Arabia (central)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 8,
+        "region": "Arabia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799746486, 0.010069642089329],
+            [-176.983824799744724, 0.010105831331237],
+            [-177.010785034056141, 0.010105831555616],
+            [-177.010785034054976, 0.010069642312901],
+            [-176.983824799746486, 0.010069642089329]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 67,
+        "Join_Count": 1,
+        "TARGET_FID": 67,
+        "Id": 68,
+        "placeGRIDCODE": 80103,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1107,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1107,
+        "name": "Arabia (Mecca and Medina)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 8,
+        "region": "Arabia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799748277, 0.01003345284742],
+            [-176.983824799746486, 0.010069642089329],
+            [-177.010785034054976, 0.010069642312901],
+            [-177.010785034053782, 0.010033453070187],
+            [-176.983824799748277, 0.01003345284742]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 68,
+        "Join_Count": 1,
+        "TARGET_FID": 68,
+        "Id": 69,
+        "placeGRIDCODE": 70800,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1099,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1099,
+        "name": "Iberia or Georgia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 7,
+        "region": "Turky in Asia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799753535, 0.009924885121695],
+            [-176.983824799748277, 0.01003345284742],
+            [-177.010785034053782, 0.010033453070187],
+            [-177.010785034050258, 0.009924885342042],
+            [-176.983824799753535, 0.009924885121695]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 69,
+        "Join_Count": 1,
+        "TARGET_FID": 69,
+        "Id": 70,
+        "placeGRIDCODE": 70901,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1090,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1090,
+        "name": "Armenia Major (western)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 7,
+        "region": "Turky in Asia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799756178, 0.009870601258833],
+            [-176.983824799753535, 0.009924885121695],
+            [-177.010785034050258, 0.009924885342042],
+            [-177.010785034048496, 0.00987060147797],
+            [-176.983824799756178, 0.009870601258833]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 70,
+        "Join_Count": 1,
+        "TARGET_FID": 70,
+        "Id": 71,
+        "placeGRIDCODE": 70902,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1084,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1084,
+        "name": "Armenia Major (eastern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 7,
+        "region": "Turky in Asia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799758793, 0.009816317395969],
+            [-176.983824799756178, 0.009870601258833],
+            [-177.010785034048496, 0.00987060147797],
+            [-177.010785034046762, 0.009816317613897],
+            [-176.983824799758793, 0.009816317395969]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 71,
+        "Join_Count": 1,
+        "TARGET_FID": 71,
+        "Id": 72,
+        "placeGRIDCODE": 71000,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1075,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1075,
+        "name": "Armenia Minor",
+        "PLACEIDstr": " ",
+        "region_gridcode": 7,
+        "region": "Turky in Asia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799763937, 0.009707749670243],
+            [-176.983824799758793, 0.009816317395969],
+            [-177.010785034046762, 0.009816317613897],
+            [-177.010785034043323, 0.009707749885751],
+            [-176.983824799763937, 0.009707749670243]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 72,
+        "Join_Count": 1,
+        "TARGET_FID": 72,
+        "Id": 73,
+        "placeGRIDCODE": 71100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1063,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1063,
+        "name": "Pontus",
+        "PLACEIDstr": " ",
+        "region_gridcode": 7,
+        "region": "Turky in Asia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799769053, 0.009599181944515],
+            [-176.983824799763937, 0.009707749670243],
+            [-177.010785034043323, 0.009707749885751],
+            [-177.010785034039912, 0.009599182157605],
+            [-176.983824799769053, 0.009599181944515]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 73,
+        "Join_Count": 1,
+        "TARGET_FID": 73,
+        "Id": 74,
+        "placeGRIDCODE": 71201,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1054,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1054,
+        "name": "Bithynia (western)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 7,
+        "region": "Turky in Asia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799771583, 0.009544898081651],
+            [-176.983824799769053, 0.009599181944515],
+            [-177.010785034039912, 0.009599182157605],
+            [-177.010785034038236, 0.009544898293531],
+            [-176.983824799771583, 0.009544898081651]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 74,
+        "Join_Count": 1,
+        "TARGET_FID": 74,
+        "Id": 75,
+        "placeGRIDCODE": 71202,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1048,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1048,
+        "name": "Bithynia (eastern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 7,
+        "region": "Turky in Asia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799774112, 0.009490614218787],
+            [-176.983824799771583, 0.009544898081651],
+            [-177.010785034038236, 0.009544898293531],
+            [-177.010785034036559, 0.009490614429457],
+            [-176.983824799774112, 0.009490614218787]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 75,
+        "Join_Count": 1,
+        "TARGET_FID": 75,
+        "Id": 76,
+        "placeGRIDCODE": 71300,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1039,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1039,
+        "name": "Lydia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 7,
+        "region": "Turky in Asia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799779114, 0.009382046493058],
+            [-176.983824799774112, 0.009490614218787],
+            [-177.010785034036559, 0.009490614429457],
+            [-177.010785034033205, 0.009382046701309],
+            [-176.983824799779114, 0.009382046493058]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 76,
+        "Join_Count": 1,
+        "TARGET_FID": 76,
+        "Id": 77,
+        "placeGRIDCODE": 71400,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1027,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1027,
+        "name": "Phrygia Minor",
+        "PLACEIDstr": " ",
+        "region_gridcode": 7,
+        "region": "Turky in Asia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.98382479978406, 0.009273478767328],
+            [-176.983824799779114, 0.009382046493058],
+            [-177.010785034033205, 0.009382046701309],
+            [-177.010785034029936, 0.009273478973159],
+            [-176.98382479978406, 0.009273478767328]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 77,
+        "Join_Count": 1,
+        "TARGET_FID": 77,
+        "Id": 78,
+        "placeGRIDCODE": 90101,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1018,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1018,
+        "name": "Lower Saxony",
+        "PLACEIDstr": " ",
+        "region_gridcode": 9,
+        "region": "Germany"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799786504, 0.009219194904462],
+            [-176.98382479978406, 0.009273478767328],
+            [-177.010785034029936, 0.009273478973159],
+            [-177.010785034028316, 0.009219195109084],
+            [-176.983824799786504, 0.009219194904462]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 78,
+        "Join_Count": 1,
+        "TARGET_FID": 78,
+        "Id": 79,
+        "placeGRIDCODE": 90102,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1012,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1012,
+        "name": "Upper Saxony",
+        "PLACEIDstr": " ",
+        "region_gridcode": 9,
+        "region": "Germany"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.98382479978892, 0.009164911041597],
+            [-176.983824799786504, 0.009219194904462],
+            [-177.010785034028316, 0.009219195109084],
+            [-177.010785034026668, 0.009164911245009],
+            [-176.98382479978892, 0.009164911041597]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 79,
+        "Join_Count": 1,
+        "TARGET_FID": 79,
+        "Id": 80,
+        "placeGRIDCODE": 90200,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 1003,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 1003,
+        "name": "Thuringia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 9,
+        "region": "Germany"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799793751, 0.009056343315865],
+            [-176.98382479978892, 0.009164911041597],
+            [-177.010785034026668, 0.009164911245009],
+            [-177.010785034023456, 0.009056343516859],
+            [-176.983824799793751, 0.009056343315865]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 80,
+        "Join_Count": 1,
+        "TARGET_FID": 80,
+        "Id": 81,
+        "placeGRIDCODE": 90301,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 994,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 994,
+        "name": "Austria",
+        "PLACEIDstr": " ",
+        "region_gridcode": 9,
+        "region": "Germany"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799796139, 0.009002059452999],
+            [-176.983824799793751, 0.009056343315865],
+            [-177.010785034023456, 0.009056343516859],
+            [-177.010785034021865, 0.009002059652783],
+            [-176.983824799796139, 0.009002059452999]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 81,
+        "Join_Count": 1,
+        "TARGET_FID": 81,
+        "Id": 82,
+        "placeGRIDCODE": 90302,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 988,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 988,
+        "name": "Bavaria",
+        "PLACEIDstr": " ",
+        "region_gridcode": 9,
+        "region": "Germany"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799798498, 0.008947775590133],
+            [-176.983824799796139, 0.009002059452999],
+            [-177.010785034021865, 0.009002059652783],
+            [-177.010785034020302, 0.008947775788707],
+            [-176.983824799798498, 0.008947775590133]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 82,
+        "Join_Count": 1,
+        "TARGET_FID": 82,
+        "Id": 83,
+        "placeGRIDCODE": 90401,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 982,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 982,
+        "name": "Swabia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 9,
+        "region": "Germany"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799800857, 0.008893491727266],
+            [-176.983824799798498, 0.008947775590133],
+            [-177.010785034020302, 0.008947775788707],
+            [-177.01078503401871, 0.008893491924631],
+            [-176.983824799800857, 0.008893491727266]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 83,
+        "Join_Count": 1,
+        "TARGET_FID": 83,
+        "Id": 84,
+        "placeGRIDCODE": 90402,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 976,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 976,
+        "name": "Westphalia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 9,
+        "region": "Germany"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799803216, 0.0088392078644],
+            [-176.983824799800857, 0.008893491727266],
+            [-177.01078503401871, 0.008893491924631],
+            [-177.010785034017147, 0.008839208060555],
+            [-176.983824799803216, 0.0088392078644]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 84,
+        "Join_Count": 1,
+        "TARGET_FID": 84,
+        "Id": 85,
+        "placeGRIDCODE": 90500,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 967,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 967,
+        "name": "Bohemia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 9,
+        "region": "Germany"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799807877, 0.008730640138666],
+            [-176.983824799803216, 0.0088392078644],
+            [-177.010785034017147, 0.008839208060555],
+            [-177.010785034014049, 0.008730640332402],
+            [-176.983824799807877, 0.008730640138666]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 85,
+        "Join_Count": 1,
+        "TARGET_FID": 85,
+        "Id": 86,
+        "placeGRIDCODE": 90601,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 958,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 958,
+        "name": "Hungary (western)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 9,
+        "region": "Germany"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799810151, 0.008676356275798],
+            [-176.983824799807877, 0.008730640138666],
+            [-177.010785034014049, 0.008730640332402],
+            [-177.010785034012514, 0.008676356468325],
+            [-176.983824799810151, 0.008676356275798]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 86,
+        "Join_Count": 1,
+        "TARGET_FID": 86,
+        "Id": 87,
+        "placeGRIDCODE": 90602,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 952,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 952,
+        "name": "Hungary (eastern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 9,
+        "region": "Germany"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799812453, 0.008622072412931],
+            [-176.983824799810151, 0.008676356275798],
+            [-177.010785034012514, 0.008676356468325],
+            [-177.010785034010979, 0.008622072604248],
+            [-176.983824799812453, 0.008622072412931]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 87,
+        "Join_Count": 1,
+        "TARGET_FID": 87,
+        "Id": 88,
+        "placeGRIDCODE": 100101,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 946,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 946,
+        "name": "Crimea",
+        "PLACEIDstr": " ",
+        "region_gridcode": 10,
+        "region": "Crim Tartary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799814727, 0.008567788550063],
+            [-176.983824799812453, 0.008622072412931],
+            [-177.010785034010979, 0.008622072604248],
+            [-177.010785034009473, 0.00856778874017],
+            [-176.983824799814727, 0.008567788550063]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 88,
+        "Join_Count": 1,
+        "TARGET_FID": 88,
+        "Id": 89,
+        "placeGRIDCODE": 100102,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 940,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 940,
+        "name": "Kaffa",
+        "PLACEIDstr": " ",
+        "region_gridcode": 10,
+        "region": "Crim Tartary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799816972, 0.008513504687196],
+            [-176.983824799814727, 0.008567788550063],
+            [-177.010785034009473, 0.00856778874017],
+            [-177.010785034007938, 0.008513504876093],
+            [-176.983824799816972, 0.008513504687196]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 89,
+        "Join_Count": 1,
+        "TARGET_FID": 89,
+        "Id": 90,
+        "placeGRIDCODE": 110101,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 935,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 935,
+        "name": "Thrace (northern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 11,
+        "region": "Turky in Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799818478, 0.008477315445284],
+            [-176.983824799816972, 0.008513504687196],
+            [-177.010785034007938, 0.008513504876093],
+            [-177.010785034006943, 0.008477315633375],
+            [-176.983824799818478, 0.008477315445284]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 90,
+        "Join_Count": 1,
+        "TARGET_FID": 90,
+        "Id": 91,
+        "placeGRIDCODE": 110102,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 931,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 931,
+        "name": "Thrace (central)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 11,
+        "region": "Turky in Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799819985, 0.008441126203372],
+            [-176.983824799818478, 0.008477315445284],
+            [-177.010785034006943, 0.008477315633375],
+            [-177.010785034005977, 0.008441126390656],
+            [-176.983824799819985, 0.008441126203372]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 91,
+        "Join_Count": 1,
+        "TARGET_FID": 91,
+        "Id": 92,
+        "placeGRIDCODE": 110103,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 927,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 927,
+        "name": "Thrace (southern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 11,
+        "region": "Turky in Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799821463, 0.008404936961459],
+            [-176.983824799819985, 0.008441126203372],
+            [-177.010785034005977, 0.008441126390656],
+            [-177.010785034004982, 0.008404937147938],
+            [-176.983824799821463, 0.008404936961459]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 92,
+        "Join_Count": 1,
+        "TARGET_FID": 92,
+        "Id": 93,
+        "placeGRIDCODE": 110201,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 922,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 922,
+        "name": "Macedonia (northern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 11,
+        "region": "Turky in Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.98382479982368, 0.008350653098591],
+            [-176.983824799821463, 0.008404936961459],
+            [-177.010785034004982, 0.008404937147938],
+            [-177.010785034003504, 0.00835065328386],
+            [-176.98382479982368, 0.008350653098591]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 93,
+        "Join_Count": 1,
+        "TARGET_FID": 93,
+        "Id": 94,
+        "placeGRIDCODE": 110202,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 916,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 916,
+        "name": "Macedonia (southern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 11,
+        "region": "Turky in Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799825868, 0.008296369235722],
+            [-176.98382479982368, 0.008350653098591],
+            [-177.010785034003504, 0.00835065328386],
+            [-177.010785034002026, 0.008296369419782],
+            [-176.983824799825868, 0.008296369235722]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 94,
+        "Join_Count": 1,
+        "TARGET_FID": 94,
+        "Id": 95,
+        "placeGRIDCODE": 110300,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 907,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 907,
+        "name": "Epirus",
+        "PLACEIDstr": " ",
+        "region_gridcode": 11,
+        "region": "Turky in Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799830245, 0.008187801509985],
+            [-176.983824799825868, 0.008296369235722],
+            [-177.010785034002026, 0.008296369419782],
+            [-177.010785033999127, 0.008187801691625],
+            [-176.983824799830245, 0.008187801509985]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 95,
+        "Join_Count": 1,
+        "TARGET_FID": 95,
+        "Id": 96,
+        "placeGRIDCODE": 110400,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 895,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 895,
+        "name": "Thebes",
+        "PLACEIDstr": " ",
+        "region_gridcode": 11,
+        "region": "Turky in Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799834537, 0.008079233784246],
+            [-176.983824799830245, 0.008187801509985],
+            [-177.010785033999127, 0.008187801691625],
+            [-177.010785033996228, 0.008079233963467],
+            [-176.983824799834537, 0.008079233784246]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 96,
+        "Join_Count": 1,
+        "TARGET_FID": 96,
+        "Id": 97,
+        "placeGRIDCODE": 110500,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 883,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 883,
+        "name": "Athens",
+        "PLACEIDstr": " ",
+        "region_gridcode": 11,
+        "region": "Turky in Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799838771, 0.007970666058507],
+            [-176.983824799834537, 0.008079233784246],
+            [-177.010785033996228, 0.008079233963467],
+            [-177.010785033993415, 0.007970666235309],
+            [-176.983824799838771, 0.007970666058507]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 97,
+        "Join_Count": 1,
+        "TARGET_FID": 97,
+        "Id": 98,
+        "placeGRIDCODE": 110600,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 871,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 871,
+        "name": "Achaia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 11,
+        "region": "Turky in Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799842978, 0.007862098332768],
+            [-176.983824799838771, 0.007970666058507],
+            [-177.010785033993415, 0.007970666235309],
+            [-177.010785033990629, 0.00786209850715],
+            [-176.983824799842978, 0.007862098332768]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 98,
+        "Join_Count": 1,
+        "TARGET_FID": 98,
+        "Id": 99,
+        "placeGRIDCODE": 110700,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 859,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 859,
+        "name": "Sparta",
+        "PLACEIDstr": " ",
+        "region_gridcode": 11,
+        "region": "Turky in Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799847099, 0.007753530607027],
+            [-176.983824799842978, 0.007862098332768],
+            [-177.010785033990629, 0.00786209850715],
+            [-177.010785033987844, 0.00775353077899],
+            [-176.983824799847099, 0.007753530607027]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 99,
+        "Join_Count": 1,
+        "TARGET_FID": 99,
+        "Id": 100,
+        "placeGRIDCODE": 110800,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 847,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 847,
+        "name": "Messenia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 11,
+        "region": "Turky in Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799851163, 0.007644962881286],
+            [-176.983824799847099, 0.007753530607027],
+            [-177.010785033987844, 0.00775353077899],
+            [-177.010785033985144, 0.00764496305083],
+            [-176.983824799851163, 0.007644962881286]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 100,
+        "Join_Count": 1,
+        "TARGET_FID": 100,
+        "Id": 101,
+        "placeGRIDCODE": 110901,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 838,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 838,
+        "name": "Crete",
+        "PLACEIDstr": " ",
+        "region_gridcode": 11,
+        "region": "Turky in Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799853181, 0.007590679018415],
+            [-176.983824799851163, 0.007644962881286],
+            [-177.010785033985144, 0.00764496305083],
+            [-177.010785033983808, 0.00759067918675],
+            [-176.983824799853181, 0.007590679018415]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 101,
+        "Join_Count": 1,
+        "TARGET_FID": 101,
+        "Id": 102,
+        "placeGRIDCODE": 110902,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 832,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 832,
+        "name": "Candia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 11,
+        "region": "Turky in Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799855199, 0.007536395155544],
+            [-176.983824799853181, 0.007590679018415],
+            [-177.010785033983808, 0.00759067918675],
+            [-177.010785033982444, 0.007536395322669],
+            [-176.983824799855199, 0.007536395155544]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 102,
+        "Join_Count": 1,
+        "TARGET_FID": 102,
+        "Id": 103,
+        "placeGRIDCODE": 111000,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 823,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 823,
+        "name": "Rhodes",
+        "PLACEIDstr": " ",
+        "region_gridcode": 11,
+        "region": "Turky in Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.98382479985915, 0.007427827429802],
+            [-176.983824799855199, 0.007536395155544],
+            [-177.010785033982444, 0.007536395322669],
+            [-177.010785033979829, 0.007427827594507],
+            [-176.98382479985915, 0.007427827429802]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 103,
+        "Join_Count": 1,
+        "TARGET_FID": 103,
+        "Id": 104,
+        "placeGRIDCODE": 120101,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 814,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 814,
+        "name": "Syracuse (city)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 12,
+        "region": "Sicily"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799861083, 0.00737354356693],
+            [-176.98382479985915, 0.007427827429802],
+            [-177.010785033979829, 0.007427827594507],
+            [-177.010785033978522, 0.007373543730426],
+            [-176.983824799861083, 0.00737354356693]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 104,
+        "Join_Count": 1,
+        "TARGET_FID": 104,
+        "Id": 105,
+        "placeGRIDCODE": 120102,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 808,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 808,
+        "name": "Syracuse (province)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 12,
+        "region": "Sicily"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799863044, 0.007319259704058],
+            [-176.983824799861083, 0.00737354356693],
+            [-177.010785033978522, 0.007373543730426],
+            [-177.010785033977243, 0.007319259866345],
+            [-176.983824799863044, 0.007319259704058]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 105,
+        "Join_Count": 1,
+        "TARGET_FID": 105,
+        "Id": 106,
+        "placeGRIDCODE": 120200,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 799,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 799,
+        "name": "Sicily",
+        "PLACEIDstr": " ",
+        "region_gridcode": 12,
+        "region": "Sicily"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799866909, 0.007210691978315],
+            [-176.983824799863044, 0.007319259704058],
+            [-177.010785033977243, 0.007319259866345],
+            [-177.010785033974656, 0.007210692138182],
+            [-176.983824799866909, 0.007210691978315]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 106,
+        "Join_Count": 1,
+        "TARGET_FID": 106,
+        "Id": 107,
+        "placeGRIDCODE": 130100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 787,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 787,
+        "name": "Tarentum",
+        "PLACEIDstr": " ",
+        "region_gridcode": 13,
+        "region": "Italy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799870661, 0.00710212425257],
+            [-176.983824799866909, 0.007210691978315],
+            [-177.010785033974656, 0.007210692138182],
+            [-177.010785033972155, 0.007102124410018],
+            [-176.983824799870661, 0.00710212425257]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 107,
+        "Join_Count": 1,
+        "TARGET_FID": 107,
+        "Id": 108,
+        "placeGRIDCODE": 130201,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 779,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 779,
+        "name": "Samnium",
+        "PLACEIDstr": " ",
+        "region_gridcode": 13,
+        "region": "Italy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799871911, 0.007065935010655],
+            [-176.983824799870661, 0.00710212425257],
+            [-177.010785033972155, 0.007102124410018],
+            [-177.010785033971302, 0.007065935167297],
+            [-176.983824799871911, 0.007065935010655]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 108,
+        "Join_Count": 1,
+        "TARGET_FID": 108,
+        "Id": 109,
+        "placeGRIDCODE": 130202,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 775,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 775,
+        "name": "Campania and Southern Naples",
+        "PLACEIDstr": " ",
+        "region_gridcode": 13,
+        "region": "Italy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799873162, 0.00702974576874],
+            [-176.983824799871911, 0.007065935010655],
+            [-177.010785033971302, 0.007065935167297],
+            [-177.010785033970507, 0.007029745924575],
+            [-176.983824799873162, 0.00702974576874]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 109,
+        "Join_Count": 1,
+        "TARGET_FID": 109,
+        "Id": 110,
+        "placeGRIDCODE": 130203,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 771,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 771,
+        "name": "Benevento",
+        "PLACEIDstr": " ",
+        "region_gridcode": 13,
+        "region": "Italy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799874412, 0.006993556526825],
+            [-176.983824799873162, 0.00702974576874],
+            [-177.010785033970507, 0.007029745924575],
+            [-177.010785033969654, 0.006993556681854],
+            [-176.983824799874412, 0.006993556526825]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 110,
+        "Join_Count": 1,
+        "TARGET_FID": 110,
+        "Id": 111,
+        "placeGRIDCODE": 130300,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 763,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 763,
+        "name": "Latium",
+        "PLACEIDstr": " ",
+        "region_gridcode": 13,
+        "region": "Italy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799878079, 0.006884988801079],
+            [-176.983824799874412, 0.006993556526825],
+            [-177.010785033969654, 0.006993556681854],
+            [-177.01078503396721, 0.006884988953689],
+            [-176.983824799878079, 0.006884988801079]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 111,
+        "Join_Count": 1,
+        "TARGET_FID": 111,
+        "Id": 112,
+        "placeGRIDCODE": 130400,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 751,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 751,
+        "name": "Rome",
+        "PLACEIDstr": " ",
+        "region_gridcode": 13,
+        "region": "Italy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799881688, 0.006776421075333],
+            [-176.983824799878079, 0.006884988801079],
+            [-177.01078503396721, 0.006884988953689],
+            [-177.010785033964822, 0.006776421225523],
+            [-176.983824799881688, 0.006776421075333]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 112,
+        "Join_Count": 1,
+        "TARGET_FID": 112,
+        "Id": 113,
+        "placeGRIDCODE": 130500,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 739,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 739,
+        "name": "Sabinum",
+        "PLACEIDstr": " ",
+        "region_gridcode": 13,
+        "region": "Italy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799885241, 0.006667853349586],
+            [-176.983824799881688, 0.006776421075333],
+            [-177.010785033964822, 0.006776421225523],
+            [-177.010785033962435, 0.006667853497357],
+            [-176.983824799885241, 0.006667853349586]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 113,
+        "Join_Count": 1,
+        "TARGET_FID": 113,
+        "Id": 114,
+        "placeGRIDCODE": 130601,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 730,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 730,
+        "name": "Umbria",
+        "PLACEIDstr": " ",
+        "region_gridcode": 13,
+        "region": "Italy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799887003, 0.006613569486712],
+            [-176.983824799885241, 0.006667853349586],
+            [-177.010785033962435, 0.006667853497357],
+            [-177.01078503396127, 0.006613569633274],
+            [-176.983824799887003, 0.006613569486712]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 114,
+        "Join_Count": 1,
+        "TARGET_FID": 114,
+        "Id": 115,
+        "placeGRIDCODE": 130602,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 724,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 724,
+        "name": "Cisalpine Gaul",
+        "PLACEIDstr": " ",
+        "region_gridcode": 13,
+        "region": "Italy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799888737, 0.006559285623838],
+            [-176.983824799887003, 0.006613569486712],
+            [-177.01078503396127, 0.006613569633274],
+            [-177.010785033960104, 0.00655928576919],
+            [-176.983824799888737, 0.006559285623838]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 115,
+        "Join_Count": 1,
+        "TARGET_FID": 115,
+        "Id": 116,
+        "placeGRIDCODE": 130701,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 718,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 718,
+        "name": "Veii",
+        "PLACEIDstr": " ",
+        "region_gridcode": 13,
+        "region": "Italy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799890471, 0.006505001760964],
+            [-176.983824799888737, 0.006559285623838],
+            [-177.010785033960104, 0.00655928576919],
+            [-177.010785033958967, 0.006505001905107],
+            [-176.983824799890471, 0.006505001760964]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 116,
+        "Join_Count": 1,
+        "TARGET_FID": 116,
+        "Id": 117,
+        "placeGRIDCODE": 130702,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 712,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 712,
+        "name": "Florence",
+        "PLACEIDstr": " ",
+        "region_gridcode": 13,
+        "region": "Italy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799892176, 0.00645071789809],
+            [-176.983824799890471, 0.006505001760964],
+            [-177.010785033958967, 0.006505001905107],
+            [-177.010785033957831, 0.006450718041023],
+            [-176.983824799892176, 0.00645071789809]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 117,
+        "Join_Count": 1,
+        "TARGET_FID": 117,
+        "Id": 118,
+        "placeGRIDCODE": 130801,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 706,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 706,
+        "name": "Venice",
+        "PLACEIDstr": " ",
+        "region_gridcode": 13,
+        "region": "Italy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799893881, 0.006396434035215],
+            [-176.983824799892176, 0.00645071789809],
+            [-177.010785033957831, 0.006450718041023],
+            [-177.010785033956665, 0.006396434176939],
+            [-176.983824799893881, 0.006396434035215]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 118,
+        "Join_Count": 1,
+        "TARGET_FID": 118,
+        "Id": 119,
+        "placeGRIDCODE": 130802,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 700,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 700,
+        "name": "Veneto",
+        "PLACEIDstr": " ",
+        "region_gridcode": 13,
+        "region": "Italy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799895558, 0.006342150172341],
+            [-176.983824799893881, 0.006396434035215],
+            [-177.010785033956665, 0.006396434176939],
+            [-177.010785033955557, 0.006342150312855],
+            [-176.983824799895558, 0.006342150172341]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 119,
+        "Join_Count": 1,
+        "TARGET_FID": 119,
+        "Id": 120,
+        "placeGRIDCODE": 130900,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 691,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 691,
+        "name": "Genoa and Corsica",
+        "PLACEIDstr": " ",
+        "region_gridcode": 13,
+        "region": "Italy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799898855, 0.006233582446592],
+            [-176.983824799895558, 0.006342150172341],
+            [-177.010785033955557, 0.006342150312855],
+            [-177.01078503395334, 0.006233582584686],
+            [-176.983824799898855, 0.006233582446592]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 120,
+        "Join_Count": 1,
+        "TARGET_FID": 120,
+        "Id": 121,
+        "placeGRIDCODE": 131000,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 679,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 679,
+        "name": "Milan",
+        "PLACEIDstr": " ",
+        "region_gridcode": 13,
+        "region": "Italy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799902152, 0.006125014720842],
+            [-176.983824799898855, 0.006233582446592],
+            [-177.01078503395334, 0.006233582584686],
+            [-177.01078503395118, 0.006125014856517],
+            [-176.983824799902152, 0.006125014720842]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 121,
+        "Join_Count": 1,
+        "TARGET_FID": 121,
+        "Id": 122,
+        "placeGRIDCODE": 131100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 667,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 667,
+        "name": "Savoy",
+        "PLACEIDstr": " ",
+        "region_gridcode": 13,
+        "region": "Italy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799905335, 0.006016446995091],
+            [-176.983824799902152, 0.006125014720842],
+            [-177.01078503395118, 0.006125014856517],
+            [-177.010785033949048, 0.006016447128347],
+            [-176.983824799905335, 0.006016446995091]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 122,
+        "Join_Count": 1,
+        "TARGET_FID": 122,
+        "Id": 123,
+        "placeGRIDCODE": 140100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 655,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 655,
+        "name": "Switzerland",
+        "PLACEIDstr": " ",
+        "region_gridcode": 14,
+        "region": "Switzerland"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799908462, 0.00590787926934],
+            [-176.983824799905335, 0.006016446995091],
+            [-177.010785033949048, 0.006016447128347],
+            [-177.010785033946945, 0.005907879400177],
+            [-176.983824799908462, 0.00590787926934]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 123,
+        "Join_Count": 1,
+        "TARGET_FID": 123,
+        "Id": 124,
+        "placeGRIDCODE": 150100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 643,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 643,
+        "name": "Holland",
+        "PLACEIDstr": " ",
+        "region_gridcode": 15,
+        "region": "France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799911588, 0.005799311543588],
+            [-176.983824799908462, 0.00590787926934],
+            [-177.010785033946945, 0.005907879400177],
+            [-177.01078503394487, 0.005799311672006],
+            [-176.983824799911588, 0.005799311543588]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 124,
+        "Join_Count": 1,
+        "TARGET_FID": 124,
+        "Id": 125,
+        "placeGRIDCODE": 150201,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 635,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 635,
+        "name": "Flanders (Spanish)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 15,
+        "region": "France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799912583, 0.005763122301671],
+            [-176.983824799911588, 0.005799311543588],
+            [-177.01078503394487, 0.005799311672006],
+            [-177.010785033944188, 0.005763122429282],
+            [-176.983824799912583, 0.005763122301671]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 125,
+        "Join_Count": 1,
+        "TARGET_FID": 125,
+        "Id": 126,
+        "placeGRIDCODE": 150202,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 631,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 631,
+        "name": "Flanders (French)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 15,
+        "region": "France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799913606, 0.005726933059753],
+            [-176.983824799912583, 0.005763122301671],
+            [-177.010785033944188, 0.005763122429282],
+            [-177.010785033943534, 0.005726933186559],
+            [-176.983824799913606, 0.005726933059753]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 126,
+        "Join_Count": 1,
+        "TARGET_FID": 126,
+        "Id": 127,
+        "placeGRIDCODE": 150203,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 627,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 627,
+        "name": "Dunkirk",
+        "PLACEIDstr": " ",
+        "region_gridcode": 15,
+        "region": "France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799914601, 0.005690743817836],
+            [-176.983824799913606, 0.005726933059753],
+            [-177.010785033943534, 0.005726933186559],
+            [-177.010785033942852, 0.005690743943835],
+            [-176.983824799914601, 0.005690743817836]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 127,
+        "Join_Count": 1,
+        "TARGET_FID": 127,
+        "Id": 128,
+        "placeGRIDCODE": 150300,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 619,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 619,
+        "name": "Lorrain",
+        "PLACEIDstr": " ",
+        "region_gridcode": 15,
+        "region": "France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799917585, 0.005582176092083],
+            [-176.983824799914601, 0.005690743817836],
+            [-177.010785033942852, 0.005690743943835],
+            [-177.010785033940863, 0.005582176215663],
+            [-176.983824799917585, 0.005582176092083]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 128,
+        "Join_Count": 1,
+        "TARGET_FID": 128,
+        "Id": 129,
+        "placeGRIDCODE": 150401,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 610,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 610,
+        "name": "Franche Comte",
+        "PLACEIDstr": " ",
+        "region_gridcode": 15,
+        "region": "France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799919063, 0.005527892229207],
+            [-176.983824799917585, 0.005582176092083],
+            [-177.010785033940863, 0.005582176215663],
+            [-177.010785033939896, 0.005527892351577],
+            [-176.983824799919063, 0.005527892229207]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 129,
+        "Join_Count": 1,
+        "TARGET_FID": 129,
+        "Id": 130,
+        "placeGRIDCODE": 150402,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 604,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 604,
+        "name": "Burgundy",
+        "PLACEIDstr": " ",
+        "region_gridcode": 15,
+        "region": "France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799920512, 0.00547360836633],
+            [-176.983824799919063, 0.005527892229207],
+            [-177.010785033939896, 0.005527892351577],
+            [-177.01078503393893, 0.00547360848749],
+            [-176.983824799920512, 0.00547360836633]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 130,
+        "Join_Count": 1,
+        "TARGET_FID": 130,
+        "Id": 131,
+        "placeGRIDCODE": 150501,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 599,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 599,
+        "name": "Calais",
+        "PLACEIDstr": " ",
+        "region_gridcode": 15,
+        "region": "France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799921479, 0.005437419124412],
+            [-176.983824799920512, 0.00547360836633],
+            [-177.01078503393893, 0.00547360848749],
+            [-177.010785033938276, 0.005437419244766],
+            [-176.983824799921479, 0.005437419124412]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 131,
+        "Join_Count": 1,
+        "TARGET_FID": 131,
+        "Id": 132,
+        "placeGRIDCODE": 150502,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 595,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 595,
+        "name": "Normandy and Paris",
+        "PLACEIDstr": " ",
+        "region_gridcode": 15,
+        "region": "France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799922417, 0.005401229882494],
+            [-176.983824799921479, 0.005437419124412],
+            [-177.010785033938276, 0.005437419244766],
+            [-177.010785033937651, 0.005401230002042],
+            [-176.983824799922417, 0.005401229882494]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 132,
+        "Join_Count": 1,
+        "TARGET_FID": 132,
+        "Id": 133,
+        "placeGRIDCODE": 150503,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 591,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 591,
+        "name": "Champagne",
+        "PLACEIDstr": " ",
+        "region_gridcode": 15,
+        "region": "France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799923354, 0.005365040640576],
+            [-176.983824799922417, 0.005401229882494],
+            [-177.010785033937651, 0.005401230002042],
+            [-177.010785033936997, 0.005365040759317],
+            [-176.983824799923354, 0.005365040640576]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 133,
+        "Join_Count": 1,
+        "TARGET_FID": 133,
+        "Id": 134,
+        "placeGRIDCODE": 150600,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 583,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 583,
+        "name": "France (eastern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 15,
+        "region": "France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799926168, 0.005256472914822],
+            [-176.983824799923354, 0.005365040640576],
+            [-177.010785033936997, 0.005365040759317],
+            [-177.01078503393515, 0.005256473031144],
+            [-176.983824799926168, 0.005256472914822]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 134,
+        "Join_Count": 1,
+        "TARGET_FID": 134,
+        "Id": 135,
+        "placeGRIDCODE": 150700,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 571,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 571,
+        "name": "France (central)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 15,
+        "region": "France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799928897, 0.005147905189067],
+            [-176.983824799926168, 0.005256472914822],
+            [-177.01078503393515, 0.005256473031144],
+            [-177.010785033933331, 0.00514790530297],
+            [-176.983824799928897, 0.005147905189067]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 135,
+        "Join_Count": 1,
+        "TARGET_FID": 135,
+        "Id": 136,
+        "placeGRIDCODE": 150800,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 559,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 559,
+        "name": "Occitanie",
+        "PLACEIDstr": " ",
+        "region_gridcode": 15,
+        "region": "France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799931597, 0.005039337463312],
+            [-176.983824799928897, 0.005147905189067],
+            [-177.010785033933331, 0.00514790530297],
+            [-177.010785033931512, 0.005039337574795],
+            [-176.983824799931597, 0.005039337463312]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 136,
+        "Join_Count": 1,
+        "TARGET_FID": 136,
+        "Id": 137,
+        "placeGRIDCODE": 150900,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 547,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 547,
+        "name": "Brittany",
+        "PLACEIDstr": " ",
+        "region_gridcode": 15,
+        "region": "France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799934212, 0.004930769737556],
+            [-176.983824799931597, 0.005039337463312],
+            [-177.010785033931512, 0.005039337574795],
+            [-177.010785033929778, 0.00493076984662],
+            [-176.983824799934212, 0.004930769737556]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 137,
+        "Join_Count": 1,
+        "TARGET_FID": 137,
+        "Id": 138,
+        "placeGRIDCODE": 151000,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 535,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 535,
+        "name": "Dauphine",
+        "PLACEIDstr": " ",
+        "region_gridcode": 15,
+        "region": "France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799936798, 0.004822202011799],
+            [-176.983824799934212, 0.004930769737556],
+            [-177.010785033929778, 0.00493076984662],
+            [-177.010785033928045, 0.004822202118445],
+            [-176.983824799936798, 0.004822202011799]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 138,
+        "Join_Count": 1,
+        "TARGET_FID": 138,
+        "Id": 139,
+        "placeGRIDCODE": 151100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 523,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 523,
+        "name": "Provence",
+        "PLACEIDstr": " ",
+        "region_gridcode": 15,
+        "region": "France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799939299, 0.004713634286043],
+            [-176.983824799936798, 0.004822202011799],
+            [-177.010785033928045, 0.004822202118445],
+            [-177.010785033926368, 0.004713634390269],
+            [-176.983824799939299, 0.004713634286043]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 139,
+        "Join_Count": 1,
+        "TARGET_FID": 139,
+        "Id": 140,
+        "placeGRIDCODE": 160100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 511,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 511,
+        "name": "Navarre",
+        "PLACEIDstr": " ",
+        "region_gridcode": 16,
+        "region": "Spain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799941772, 0.004605066560285],
+            [-176.983824799939299, 0.004713634286043],
+            [-177.010785033926368, 0.004713634390269],
+            [-177.010785033924748, 0.004605066662092],
+            [-176.983824799941772, 0.004605066560285]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 140,
+        "Join_Count": 1,
+        "TARGET_FID": 140,
+        "Id": 141,
+        "placeGRIDCODE": 160200,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 499,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 499,
+        "name": "Arragon",
+        "PLACEIDstr": " ",
+        "region_gridcode": 16,
+        "region": "Spain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799944159, 0.004496498834527],
+            [-176.983824799941772, 0.004605066560285],
+            [-177.010785033924748, 0.004605066662092],
+            [-177.010785033923128, 0.004496498933915],
+            [-176.983824799944159, 0.004496498834527]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 141,
+        "Join_Count": 1,
+        "TARGET_FID": 141,
+        "Id": 142,
+        "placeGRIDCODE": 160300,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 487,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 487,
+        "name": "Valentia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 16,
+        "region": "Spain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799946518, 0.004387931108769],
+            [-176.983824799944159, 0.004496498834527],
+            [-177.010785033923128, 0.004496498933915],
+            [-177.010785033921593, 0.004387931205738],
+            [-176.983824799946518, 0.004387931108769]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 142,
+        "Join_Count": 1,
+        "TARGET_FID": 142,
+        "Id": 143,
+        "placeGRIDCODE": 160400,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 475,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 475,
+        "name": "Granada and Southern Iberia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 16,
+        "region": "Spain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799948792, 0.004279363383011],
+            [-176.983824799946518, 0.004387931108769],
+            [-177.010785033921593, 0.004387931205738],
+            [-177.010785033920058, 0.00427936347756],
+            [-176.983824799948792, 0.004279363383011]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 143,
+        "Join_Count": 1,
+        "TARGET_FID": 143,
+        "Id": 144,
+        "placeGRIDCODE": 160500,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 463,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 463,
+        "name": "Murcia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 16,
+        "region": "Spain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799951009, 0.004170795657252],
+            [-176.983824799948792, 0.004279363383011],
+            [-177.010785033920058, 0.00427936347756],
+            [-177.01078503391858, 0.004170795749382],
+            [-176.983824799951009, 0.004170795657252]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 144,
+        "Join_Count": 1,
+        "TARGET_FID": 144,
+        "Id": 145,
+        "placeGRIDCODE": 160600,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 451,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 451,
+        "name": "Seville",
+        "PLACEIDstr": " ",
+        "region_gridcode": 16,
+        "region": "Spain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799953169, 0.004062227931492],
+            [-176.983824799951009, 0.004170795657252],
+            [-177.01078503391858, 0.004170795749382],
+            [-177.010785033917131, 0.004062228021203],
+            [-176.983824799953169, 0.004062227931492]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 145,
+        "Join_Count": 1,
+        "TARGET_FID": 145,
+        "Id": 146,
+        "placeGRIDCODE": 160700,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 439,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 439,
+        "name": "Cordova",
+        "PLACEIDstr": " ",
+        "region_gridcode": 16,
+        "region": "Spain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.9838247999553, 0.003953660205732],
+            [-176.983824799953169, 0.004062227931492],
+            [-177.010785033917131, 0.004062228021203],
+            [-177.01078503391571, 0.003953660293024],
+            [-176.9838247999553, 0.003953660205732]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 146,
+        "Join_Count": 1,
+        "TARGET_FID": 146,
+        "Id": 147,
+        "placeGRIDCODE": 160800,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 427,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 427,
+        "name": "Toledo",
+        "PLACEIDstr": " ",
+        "region_gridcode": 16,
+        "region": "Spain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799957347, 0.003845092479972],
+            [-176.9838247999553, 0.003953660205732],
+            [-177.01078503391571, 0.003953660293024],
+            [-177.010785033914374, 0.003845092564844],
+            [-176.983824799957347, 0.003845092479972]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 147,
+        "Join_Count": 1,
+        "TARGET_FID": 147,
+        "Id": 148,
+        "placeGRIDCODE": 160900,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 415,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 415,
+        "name": "Castile",
+        "PLACEIDstr": " ",
+        "region_gridcode": 16,
+        "region": "Spain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799959365, 0.003736524754211],
+            [-176.983824799957347, 0.003845092479972],
+            [-177.010785033914374, 0.003845092564844],
+            [-177.01078503391301, 0.003736524836665],
+            [-176.983824799959365, 0.003736524754211]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 148,
+        "Join_Count": 1,
+        "TARGET_FID": 148,
+        "Id": 149,
+        "placeGRIDCODE": 161000,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 403,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 403,
+        "name": "Leon and Asturias",
+        "PLACEIDstr": " ",
+        "region_gridcode": 16,
+        "region": "Spain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799961297, 0.00362795702845],
+            [-176.983824799959365, 0.003736524754211],
+            [-177.01078503391301, 0.003736524836665],
+            [-177.010785033911731, 0.003627957108484],
+            [-176.983824799961297, 0.00362795702845]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 149,
+        "Join_Count": 1,
+        "TARGET_FID": 149,
+        "Id": 150,
+        "placeGRIDCODE": 170101,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 394,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 394,
+        "name": "Lisbon",
+        "PLACEIDstr": " ",
+        "region_gridcode": 17,
+        "region": "Portugal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799962235, 0.003573673165569],
+            [-176.983824799961297, 0.00362795702845],
+            [-177.010785033911731, 0.003627957108484],
+            [-177.010785033911105, 0.003573673244394],
+            [-176.983824799962235, 0.003573673165569]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 150,
+        "Join_Count": 1,
+        "TARGET_FID": 150,
+        "Id": 151,
+        "placeGRIDCODE": 170102,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 388,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 388,
+        "name": "Portugal",
+        "PLACEIDstr": " ",
+        "region_gridcode": 17,
+        "region": "Portugal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799963173, 0.003519389302688],
+            [-176.983824799962235, 0.003573673165569],
+            [-177.010785033911105, 0.003573673244394],
+            [-177.01078503391048, 0.003519389380303],
+            [-176.983824799963173, 0.003519389302688]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 151,
+        "Join_Count": 1,
+        "TARGET_FID": 151,
+        "Id": 152,
+        "placeGRIDCODE": 180100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 379,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 379,
+        "name": "Wales",
+        "PLACEIDstr": " ",
+        "region_gridcode": 18,
+        "region": "Great Britain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799964992, 0.003410821576926],
+            [-176.983824799963173, 0.003519389302688],
+            [-177.01078503391048, 0.003519389380303],
+            [-177.010785033909286, 0.003410821652122],
+            [-176.983824799964992, 0.003410821576926]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 152,
+        "Join_Count": 1,
+        "TARGET_FID": 152,
+        "Id": 153,
+        "placeGRIDCODE": 180200,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 367,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 367,
+        "name": "Wessex",
+        "PLACEIDstr": " ",
+        "region_gridcode": 18,
+        "region": "Great Britain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799966754, 0.003302253851164],
+            [-176.983824799964992, 0.003410821576926],
+            [-177.010785033909286, 0.003410821652122],
+            [-177.010785033908064, 0.003302253923941],
+            [-176.983824799966754, 0.003302253851164]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 153,
+        "Join_Count": 1,
+        "TARGET_FID": 153,
+        "Id": 154,
+        "placeGRIDCODE": 180300,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 355,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 355,
+        "name": "Sussex",
+        "PLACEIDstr": " ",
+        "region_gridcode": 18,
+        "region": "Great Britain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.98382479996846, 0.003193686125401],
+            [-176.983824799966754, 0.003302253851164],
+            [-177.010785033908064, 0.003302253923941],
+            [-177.010785033906956, 0.003193686195759],
+            [-176.98382479996846, 0.003193686125401]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 154,
+        "Join_Count": 1,
+        "TARGET_FID": 154,
+        "Id": 155,
+        "placeGRIDCODE": 180400,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 343,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 343,
+        "name": "Kent",
+        "PLACEIDstr": " ",
+        "region_gridcode": 18,
+        "region": "Great Britain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799970108, 0.003085118399638],
+            [-176.98382479996846, 0.003193686125401],
+            [-177.010785033906956, 0.003193686195759],
+            [-177.010785033905876, 0.003085118467577],
+            [-176.983824799970108, 0.003085118399638]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 155,
+        "Join_Count": 1,
+        "TARGET_FID": 155,
+        "Id": 156,
+        "placeGRIDCODE": 180500,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 331,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 331,
+        "name": "Essex",
+        "PLACEIDstr": " ",
+        "region_gridcode": 18,
+        "region": "Great Britain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.9838247999717, 0.002976550673875],
+            [-176.983824799970108, 0.003085118399638],
+            [-177.010785033905876, 0.003085118467577],
+            [-177.010785033904796, 0.002976550739394],
+            [-176.9838247999717, 0.002976550673875]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 156,
+        "Join_Count": 1,
+        "TARGET_FID": 156,
+        "Id": 157,
+        "placeGRIDCODE": 180600,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 319,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 319,
+        "name": "Mercia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 18,
+        "region": "Great Britain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799973235, 0.002867982948111],
+            [-176.9838247999717, 0.002976550673875],
+            [-177.010785033904796, 0.002976550739394],
+            [-177.010785033903773, 0.002867983011211],
+            [-176.983824799973235, 0.002867982948111]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 157,
+        "Join_Count": 1,
+        "TARGET_FID": 157,
+        "Id": 158,
+        "placeGRIDCODE": 180700,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 307,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 307,
+        "name": "East Anglia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 18,
+        "region": "Great Britain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799974713, 0.002759415222347],
+            [-176.983824799973235, 0.002867982948111],
+            [-177.010785033903773, 0.002867983011211],
+            [-177.010785033902778, 0.002759415283028],
+            [-176.983824799974713, 0.002759415222347]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 158,
+        "Join_Count": 1,
+        "TARGET_FID": 158,
+        "Id": 159,
+        "placeGRIDCODE": 180800,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 295,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 295,
+        "name": "Northumbria",
+        "PLACEIDstr": " ",
+        "region_gridcode": 18,
+        "region": "Great Britain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799976134, 0.002650847496583],
+            [-176.983824799974713, 0.002759415222347],
+            [-177.010785033902778, 0.002759415283028],
+            [-177.01078503390184, 0.002650847554844],
+            [-176.983824799976134, 0.002650847496583]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 159,
+        "Join_Count": 1,
+        "TARGET_FID": 159,
+        "Id": 160,
+        "placeGRIDCODE": 180901,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 286,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 286,
+        "name": "Scotland (southern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 18,
+        "region": "Great Britain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799976816, 0.0025965636337],
+            [-176.983824799976134, 0.002650847496583],
+            [-177.01078503390184, 0.002650847554844],
+            [-177.010785033901385, 0.002596563690753],
+            [-176.983824799976816, 0.0025965636337]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 160,
+        "Join_Count": 1,
+        "TARGET_FID": 160,
+        "Id": 161,
+        "placeGRIDCODE": 180902,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 280,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 280,
+        "name": "Scotland (central)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 18,
+        "region": "Great Britain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799977469, 0.002542279770818],
+            [-176.983824799976816, 0.0025965636337],
+            [-177.010785033901385, 0.002596563690753],
+            [-177.01078503390093, 0.002542279826661],
+            [-176.983824799977469, 0.002542279770818]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 161,
+        "Join_Count": 1,
+        "TARGET_FID": 161,
+        "Id": 162,
+        "placeGRIDCODE": 181000,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 271,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 271,
+        "name": "Scotland (northern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 18,
+        "region": "Great Britain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799978805, 0.002433712045053],
+            [-176.983824799977469, 0.002542279770818],
+            [-177.01078503390093, 0.002542279826661],
+            [-177.010785033900049, 0.002433712098476],
+            [-176.983824799978805, 0.002433712045053]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 162,
+        "Join_Count": 1,
+        "TARGET_FID": 162,
+        "Id": 163,
+        "placeGRIDCODE": 181100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 259,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 259,
+        "name": "Pictland",
+        "PLACEIDstr": " ",
+        "region_gridcode": 18,
+        "region": "Great Britain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799980056, 0.002325144319288],
+            [-176.983824799978805, 0.002433712045053],
+            [-177.010785033900049, 0.002433712098476],
+            [-177.010785033899225, 0.002325144370292],
+            [-176.983824799980056, 0.002325144319288]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 163,
+        "Join_Count": 1,
+        "TARGET_FID": 163,
+        "Id": 164,
+        "placeGRIDCODE": 181201,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 251,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 251,
+        "name": "Ireland (northeast)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 18,
+        "region": "Great Britain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799980425, 0.002288955077366],
+            [-176.983824799980056, 0.002325144319288],
+            [-177.010785033899225, 0.002325144370292],
+            [-177.010785033898969, 0.002288955127564],
+            [-176.983824799980425, 0.002288955077366]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 164,
+        "Join_Count": 1,
+        "TARGET_FID": 164,
+        "Id": 165,
+        "placeGRIDCODE": 181202,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 247,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 247,
+        "name": "Ireland (southeast)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 18,
+        "region": "Great Britain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799980852, 0.002252765835444],
+            [-176.983824799980425, 0.002288955077366],
+            [-177.010785033898969, 0.002288955127564],
+            [-177.010785033898685, 0.002252765884835],
+            [-176.983824799980852, 0.002252765835444]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 165,
+        "Join_Count": 1,
+        "TARGET_FID": 165,
+        "Id": 166,
+        "placeGRIDCODE": 181203,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 243,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 243,
+        "name": "Ireland (west)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 18,
+        "region": "Great Britain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799981221, 0.002216576593522],
+            [-176.983824799980852, 0.002252765835444],
+            [-177.010785033898685, 0.002252765884835],
+            [-177.010785033898429, 0.002216576642107],
+            [-176.983824799981221, 0.002216576593522]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 166,
+        "Join_Count": 1,
+        "TARGET_FID": 166,
+        "Id": 167,
+        "placeGRIDCODE": 190100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 235,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 235,
+        "name": "Siberia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 19,
+        "region": "Russia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799982358, 0.002108008867756],
+            [-176.983824799981221, 0.002216576593522],
+            [-177.010785033898429, 0.002216576642107],
+            [-177.01078503389769, 0.002108008913922],
+            [-176.983824799982358, 0.002108008867756]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 167,
+        "Join_Count": 1,
+        "TARGET_FID": 167,
+        "Id": 168,
+        "placeGRIDCODE": 190200,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 223,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 223,
+        "name": "Kipjak",
+        "PLACEIDstr": " ",
+        "region_gridcode": 19,
+        "region": "Russia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799983438, 0.00199944114199],
+            [-176.983824799982358, 0.002108008867756],
+            [-177.01078503389769, 0.002108008913922],
+            [-177.01078503389698, 0.001999441185736],
+            [-176.983824799983438, 0.00199944114199]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 168,
+        "Join_Count": 1,
+        "TARGET_FID": 168,
+        "Id": 169,
+        "placeGRIDCODE": 190300,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 211,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 211,
+        "name": "Russia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 19,
+        "region": "Russia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799984461, 0.001890873416223],
+            [-176.983824799983438, 0.00199944114199],
+            [-177.01078503389698, 0.001999441185736],
+            [-177.010785033896298, 0.001890873457551],
+            [-176.983824799984461, 0.001890873416223]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 169,
+        "Join_Count": 1,
+        "TARGET_FID": 169,
+        "Id": 170,
+        "placeGRIDCODE": 200100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 199,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 199,
+        "name": "Poland",
+        "PLACEIDstr": " ",
+        "region_gridcode": 20,
+        "region": "Poland"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799985399, 0.001782305690457],
+            [-176.983824799984461, 0.001890873416223],
+            [-177.010785033896298, 0.001890873457551],
+            [-177.010785033895672, 0.001782305729365],
+            [-176.983824799985399, 0.001782305690457]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 170,
+        "Join_Count": 1,
+        "TARGET_FID": 170,
+        "Id": 171,
+        "placeGRIDCODE": 200200,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 187,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 187,
+        "name": "Red Russia",
+        "PLACEIDstr": " ",
+        "region_gridcode": 20,
+        "region": "Poland"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799986309, 0.00167373796469],
+            [-176.983824799985399, 0.001782305690457],
+            [-177.010785033895672, 0.001782305729365],
+            [-177.010785033895047, 0.001673738001179],
+            [-176.983824799986309, 0.00167373796469]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 171,
+        "Join_Count": 1,
+        "TARGET_FID": 171,
+        "Id": 172,
+        "placeGRIDCODE": 200300,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 175,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 175,
+        "name": "Lithuania",
+        "PLACEIDstr": " ",
+        "region_gridcode": 20,
+        "region": "Poland"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799987161, 0.001565170238922],
+            [-176.983824799986309, 0.00167373796469],
+            [-177.010785033895047, 0.001673738001179],
+            [-177.010785033894479, 0.001565170272992],
+            [-176.983824799987161, 0.001565170238922]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 172,
+        "Join_Count": 1,
+        "TARGET_FID": 172,
+        "Id": 173,
+        "placeGRIDCODE": 200400,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 163,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 163,
+        "name": "Prussia (western)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 20,
+        "region": "Poland"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.9838247999879, 0.001456602513155],
+            [-176.983824799987161, 0.001565170238922],
+            [-177.010785033894479, 0.001565170272992],
+            [-177.010785033893995, 0.001456602544806],
+            [-176.9838247999879, 0.001456602513155]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 173,
+        "Join_Count": 1,
+        "TARGET_FID": 173,
+        "Id": 174,
+        "placeGRIDCODE": 210100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 151,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 151,
+        "name": "Prussia (eastern)",
+        "PLACEIDstr": " ",
+        "region_gridcode": 21,
+        "region": "Prussia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799988639, 0.001348034787387],
+            [-176.9838247999879, 0.001456602513155],
+            [-177.010785033893995, 0.001456602544806],
+            [-177.010785033893512, 0.001348034816619],
+            [-176.983824799988639, 0.001348034787387]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 174,
+        "Join_Count": 1,
+        "TARGET_FID": 174,
+        "Id": 175,
+        "placeGRIDCODE": 220100,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 139,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 139,
+        "name": "Sweden",
+        "PLACEIDstr": " ",
+        "region_gridcode": 22,
+        "region": "Northern Crowns"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.983824799989293, 0.001239467061619],
+            [-176.983824799988639, 0.001348034787387],
+            [-177.010785033893512, 0.001348034816619],
+            [-177.010785033893029, 0.001239467088432],
+            [-176.983824799989293, 0.001239467061619]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 175,
+        "Join_Count": 1,
+        "TARGET_FID": 175,
+        "Id": 176,
+        "placeGRIDCODE": 220200,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 127,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 127,
+        "name": "Denmark",
+        "PLACEIDstr": " ",
+        "region_gridcode": 22,
+        "region": "Northern Crowns"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-176.98382479998989, 0.001130899335851],
+            [-176.983824799989293, 0.001239467061619],
+            [-177.010785033893029, 0.001239467088432],
+            [-177.010785033892631, 0.001130899360244],
+            [-176.98382479998989, 0.001130899335851]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 176,
+        "Join_Count": 1,
+        "TARGET_FID": 176,
+        "Id": 177,
+        "placeGRIDCODE": 220300,
+        "CENTROID_X": 500300,
+        "CENTROID_Y": 115,
+        "INSIDE_X": 500300,
+        "INSIDE_Y": 115,
+        "name": "Norway",
+        "PLACEIDstr": " ",
+        "region_gridcode": 22,
+        "region": "Northern Crowns"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-177.010785033892631, 0.001130899360244],
+            [-177.01078503389229, 0.001022331632057],
+            [-176.983824799990458, 0.001022331610083],
+            [-176.98382479998989, 0.001130899335851],
+            [-177.010785033892631, 0.001130899360244]
+          ]
+        ]
+      }
+    }
+  ]
+}

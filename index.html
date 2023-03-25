@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-48373549-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-48373549-1');
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>The Time Charts of Joseph Priestley</title>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <!-- <script src="assets/js/mapbox.min.js"></script>
+    <link href="assets/css/mapbox.css" rel="stylesheet" /> -->
+    <link
+      rel="stylesheet"
+      href="assets//css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/fa/all.css" />
+    <link rel="stylesheet" href="assets/css/jptc.css" />
+    <link rel="stylesheet" href="assets/css/slider.css" />
+    <link rel="icon" type="image/x-icon" href="assets/img/priestley.png" />
+    <script src="assets/js/jquery.js"></script>
+  </head>
+  <body>
+    <!-- <nav class="navbar navbar-expand-lg navbar-white bg-white">
+      <a class="navbar-brand" id="ttt"
+        ><img
+          src="assets/img/priestley.png"
+          height="60px"
+          class="d-inline-block"
+        />
+        The Time Charts of Joseph Priestley
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+      <a class="navbar-brand" href="index.html"
+        ><img
+          src="assets/img/priestley.png"
+          height="60px"
+          class="d-inline-block"
+        />
+        <span class="d-lg-inline-block"
+          >The Time Charts of Joseph Priestley<span
+            style="color: rgb(255, 187, 0); font-size: 0.75rem"
+          >
+            2.0</span
+          ></span
+        >
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto"></ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="bio.html"
+              ><i class="fas fa-users"></i>&nbsp;&nbsp;Chart of Biography</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="narratives"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i class="fa fa-book-open"></i>&nbsp;&nbsp;Curated Essays
+            </a>
+            <div
+              class="dropdown-menu dropdown-menu-right"
+              aria-labelledby="navbarDropdown"
+            >
+              <!-- <a class="dropdown-item" href="maa.html"
+                >&nbsp;&nbsp;The Nolli Map as Artifact</a
+              > -->
+              <a href="storymap.html" class="dropdown-item" id="forgotten"
+                >&nbsp;&nbsp;A new Chart of History</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="introbutton"
+              data-toggle="modal"
+              href="#introduction"
+              ><i class="fa fa-info"></i>&nbsp;&nbsp;About</a
+            >
+          </li>
+        </ul>
+        <a
+          class="d-none"
+          data-toggle="collapse"
+          data-target=".navbar-collapse.in"
+          id="list-btn"
+          ><i class="fa fa-chevron-right"></i
+        ></a>
+      </div>
+      <!--/.navbar-collapse -->
+    </nav>
+    <script>
+      $(document).ready(function () {
+        $('#myTab li:eq(0) a').tab('show'); // show 2nd tab on page load
+      });
+    </script>
+    <div id="container">
+      <div id="map"></div>
+
+      <div class="map-overlay" id="menuNew">
+        <div class="row">
+          <div class="col-md-2" style="padding-right: 2px"></div>
+
+          <div class="col-md-10" style="padding-right: 2px; padding-left: 0px">
+            <div id="MIT">
+              <ul class="nav nav-tabs" id="myTab">
+                <li class="nav-item">
+                  <a href="#filters" class="nav-link" data-toggle="tab"
+                    >Filters</a
+                  >
+                </li>
+                <!-- <li class="nav-item">
+                  <a href="#search" class="nav-link" data-toggle="tab"
+                    >Search</a
+                  >
+                </li> -->
+              </ul>
+            </div>
+
+            <div class="tab-content">
+              <div class="tab-pane fade" id="search">
+                <div class="row">
+                  <div id="SNP">
+                    <input id="searchBar" type="text" placeholder="Search " />
+                    <i class="fas fa-search" style="display: inline-block"></i>
+                    <div id="NPList" class="NPlisting"></div>
+                  </div>
+                  <hr
+                    style="
+                      border-top: 1px solid rgb(150, 150, 150);
+                      margin-top: 1rem;
+                      margin-bottom: 1rem;
+                    "
+                  />
+
+                  <section>
+                    <div id="container">
+                      <div
+                        id="feature-listing"
+                        class="listing"
+                        style="font-size: 0.9em"
+                      ></div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="filters">
+                <div class="map-overlay4" id="filtri">
+                  <h3 style="text-align: center; color: #3a6461 !important">
+                    Filters
+                  </h3>
+
+                  <div class="row">
+                    <form id="filters" style="padding-left: 9%">
+                      <div class="row" style="padding: 3%">
+                        <h7
+                          style="text-align: center; color: #3a6461 !important"
+                        >
+                          Region:
+                        </h7>
+                      </div>
+                      <select
+                        id="primoLivello"
+                        class="livello"
+                        name="projectKey"
+                      ></select>
+                      <div class="row" style="padding: 3%">
+                        <h7
+                          style="text-align: center; color: #3a6461 !important"
+                          >Place:</h7
+                        >
+                      </div>
+                      <select
+                        id="secondoLivello"
+                        class="livello"
+                        name="projectKey"
+                      ></select>
+                      <div id="testo"></div>
+                    </form>
+                  </div>
+                </div>
+
+                <!-- <div class="map-overlay5">
+                  <h4 style="text-align: center; color: #3a6461 !important">
+                    When was it built?
+                  </h4>
+                  <br />
+                  <div class="row">
+                    <div class="col-md-6">
+                      After: <label id="active-year"></label>
+                    </div>
+                    <div class="col-md-6">
+                      Before: <label id="active-yearTo"></label>
+                    </div>
+                  </div>
+                  <p></p>
+                  <p></p>
+                  <section class="range-slider">
+                    <span class="rangeValues"></span>
+                    <input
+                      id="sliderFrom"
+                      value="-810"
+                      min="-810"
+                      max="2055"
+                      step="1"
+                      type="range"
+                      class="range-style"
+                    />
+                    <input
+                      id="sliderTo"
+                      value="2050"
+                      min="-810"
+                      max="2055"
+                      step="1"
+                      type="range"
+                      class="range-style"
+                      style="background-color: rgb(186, 201, 201, 0) !important"
+                    />
+                  </section>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="map-overlay3" id="map2">HERE</div>
+      </div>
+    </div>
+
+    <!-- <div class="baseSelection">
+      <a
+        href="#"
+        id="nolliT"
+        style="
+          display: inline-block;
+          width: 45%;
+          padding-bottom: 0.8em;
+          font-size: 1.3em;
+          padding-left: 10%;
+        "
+        class="selezione"
+        ><span>Nolli</span></a
+      >
+
+      <a
+        href="#"
+        class="noselezione"
+        id="satelliteT"
+        style="
+          display: inline-block;
+          width: 50%;
+          padding-bottom: 0.8em;
+          font-size: 1.3em;
+          padding-left: 1%;
+        "
+      >
+        &nbsp;<span> Satellite</span></a
+      >
+    </div> -->
+
+    <div class="map-overlay2" id="menuNew2">
+      <div class="container-fluid" style="color: #3a6461">
+        <div class="row">
+          <div class="col-md-10" style="padding-left: 0px; color: #3a6461">
+            <h4 id="feature-title"></h4>
+          </div>
+          <div class="col-md-2">
+            <button
+              type="button"
+              class="btn btn-outline-secondary"
+              id="closePanel"
+            >
+              X
+            </button>
+          </div>
+          <br />
+          <div
+            class="col-md-2 text-right"
+            style="padding-left: -20px; padding-right: 5px"
+          >
+            In use
+          </div>
+          <div class="col-md-10" id="feature-use" style="padding-left: 0"></div>
+        </div>
+
+        <div class="row" style="padding-bottom: 5px; padding-top: 30px">
+          <div
+            class="col-md-4 text-right"
+            style="padding-left: 0; padding-right: 0"
+          >
+            <b>Built in:&nbsp;&nbsp;&nbsp;</b>
+          </div>
+          <div
+            class="col-md-8"
+            id="feature-built"
+            style="padding-left: 0"
+          ></div>
+        </div>
+
+        <div class="row" style="padding-bottom: 15px">
+          <div
+            id="NZ"
+            class="col-md-4 text-right"
+            style="padding-left: 0; padding-right: 0"
+          >
+            <b>Link to DB:&nbsp;&nbsp;&nbsp;</b>
+          </div>
+          <div class="col-md-8" id="feature-link" style="padding-left: 0"></div>
+        </div>
+        <div class="row" style="padding-bottom: 15px">
+          <div
+            id="NZ"
+            class="col-md-4 text-right"
+            style="padding-left: 0; padding-right: 0"
+          >
+            <b>Description:&nbsp;&nbsp;&nbsp;</b>
+          </div>
+          <div
+            class="col-md-8"
+            id="feature-description"
+            style="padding-left: 0"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="introduction" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-body-resources"></div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-outline-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/turf.min.js"></script>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/jptc.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/modal.js"></script>
+    <script src="assets/js/pace.js"></script>
+  </body>
+</html>

@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-48373549-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-48373549-1');
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>A new Chart of History</title>
+    <script src="./assets/js/mapbox.js"></script>
+    <link href="./assets/css/mapbox.css" rel="stylesheet" />
+    <script src="./assets/js/mapbox-gl-compare.js"></script>
+    <link
+      rel="stylesheet"
+      href="./assets/css/mapbox-gl-compare.css"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,300,700,100,300italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./assets//css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/fa/all.css" />
+    <link rel="stylesheet" href="./assets/css/storymap.css" />
+
+    <link rel="icon" sizes="196x196" href="assets/img/priestley.png" />
+    <link rel="icon" type="image/x-icon" href="assets/img/priestley.png" />
+
+    <!-- /// MENU DOT /// -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="assets/storymap/reset.css" />
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="assets/storymap/style.css" />
+
+    <!-- Resource style -->
+    <script src="assets/storymap/modernizr.js"></script>
+    <style>
+      .containerImg {
+        position: relative;
+      }
+      .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: 0.5s ease;
+        backface-visibility: hidden;
+      }
+
+      .middle {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .containerImg:hover .image {
+        opacity: 0.3;
+      }
+
+      .containerImg:hover .middle {
+        opacity: 1;
+      }
+
+      .textImg {
+        background-color: #ffffff00;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+        z-index: 99;
+      }
+      a:hover {
+        color: rgb(192, 108, 5);
+      }
+    </style>
+  </head>
+  <style></style>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-white bg-white fixed-top">
+      <a class="navbar-brand" href="index.html"
+        ><img
+          src="assets/img/priestley.png"
+          height="60px"
+          class="d-inline-block"
+        />
+        <span class="d-lg-inline-block"
+          >The Time Charts of Joseph Priestley<span
+            style="color: rgb(255, 187, 0); font-size: 0.75rem"
+          >
+            2.0</span
+          ></span
+        >
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto"></ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"
+              ><i class="fas fa-atlas"></i>&nbsp;&nbsp;Chart of History</a
+            >
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="bio.html"
+              ><i class="fas fa-users"></i>&nbsp;&nbsp;Chart of Biography</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="introbutton"
+              data-toggle="modal"
+              href="#introduction"
+              ><i class="fa fa-info"></i>&nbsp;&nbsp;About</a
+            >
+          </li>
+        </ul>
+        <a
+          class="d-none"
+          data-toggle="collapse"
+          data-target=".navbar-collapse.in"
+          id="list-btn"
+          ><i class="fa fa-chevron-right"></i
+        ></a>
+      </div>
+      <!--/.navbar-collapse -->
+    </nav>
+    <div id="comparison-container">
+      <div id="before" class="compare"></div>
+      <div id="after" class="compare"></div>
+    </div>
+    <div id="map"></div>
+    <div id="features">
+      <a
+        class="arrow previous fa fa-chevron-up fa-2x"
+        style="cursor: pointer"
+      ></a
+      ><a
+        class="arrow next fa fa-chevron-down fa-2x"
+        style="cursor: pointer"
+      ></a>
+      <section
+        id="1"
+        class="active"
+        style="padding-top: 1em; padding-bottom: 15em"
+      >
+        <a
+          class="arrow previous fa fa-chevron-up fa-2x"
+          style="color: rgb(243, 243, 243)"
+        ></a>
+        <div align="center">
+          <p
+            class="subheading"
+            style="letter-spacing: -0.2px; padding-top: 70px"
+          >
+            A new Chart of History
+          </p>
+          <p>
+            <span class="storyText"
+              ><b
+                ><a
+                  href="https://history.uoregon.edu/profile/dbr/"
+                  target="_blank"
+                  >Daniel Rosenberg</a
+                ></b
+              ></span
+            ><br />
+            <span
+              class="storyText"
+              style="font-size: smaller; line-height: 0.5px"
+              >Principal Investigator <br />
+              Professor of History, University of Oregon</span
+            >
+          </p>
+          <br />
+          <div class="ottawa">
+            <img src="data/storymap/rinne/img/priestley.png" />
+          </div>
+        </div>
+      </section>
+      <section id="2" class="disabledbutton">
+        <p class="storyText high">
+          In 1769, Joseph Priestley published his second timeline,&nbsp;<i
+            >A&nbsp;</i
+          ><em>New Chart of History</em>. Where the 1765
+          <i>Chart of Biography</i>&nbsp;presented a chronology of individual
+          lives divided into areas of achievement, this new chart presented a
+          history of nations and empires divided into regions of the world. For
+          the two charts, Priestley employed identical size, dimensions, and
+          time scale, yet each operated according to distinct graphic
+          principles.
+        </p>
+      </section>
+      <section id="3" class="disabledbutton">
+        <p class="storyText high">
+          In the <i>New Chart of History</i>, Priestley explored the
+          relationship between <em>cartography </em>and<em> chronography</em>,
+          that is, between <em>maps of space</em> and<em> maps of time.</em> In
+          Priestley's charts, form is as important as content. From a historical
+          perspective, the crucial innovation in both lies in the way Priestley
+          draws his frame, and, in particular, in his use of a regular, measured
+          time scale to delimit the space of events.
+        </p>
+      </section>
+      <section id="4" class="disabledbutton">
+        <h3>Format</h3>
+        <p class="storyText high">
+          Priestley's design is clear and self-explanatory. For all of
+          the&nbsp;fine historical detail,
+          <span class="hl" id="explanation"
+            >the <em>rules</em> by which his charts are&nbsp;drawn </span
+          >are simple. In fact, the <em>Chart of Biography</em>&nbsp;offers no
+          explanation, while the <em>New Chart of History </em>explains itself
+          in only a few short lines.&nbsp;Priestley provided a longer
+          theoretical discussion in his pamphlets,&nbsp;but the chart itself
+          states only a few graphic rules: "Each separate country or province is
+          represented by a space bounded by limits drawn parallel to the
+          horizon. The termination of a space by a&nbsp;<strong
+            >full line</strong
+          >&nbsp;expresses its being annexed to some other country by conquest.
+          If the termination be by a&nbsp;<strong>Broken line</strong>&nbsp;the
+          accession was not violent but peaceable.&nbsp;The name of the country
+          which makes the acquisition always appears in the continuation of the
+          same space, or of a larger one in which it was absorbed.&nbsp;<strong
+            >Dotted lines</strong
+          >&nbsp;in all cases express uncertainty….Single events are sometimes
+          expressed by&nbsp;<strong>Points</strong>."
+        </p>
+      </section>
+      <section id="5" class="disabledbutton">
+        <h3>Measured Time</h3>
+        <p class="storyText high">
+          In the epigraph to the <em>Chart of Biography</em>, Priestley quotes
+          the Roman poet
+          <a
+            href="https://en.wikipedia.org/wiki/Horace"
+            target="_blank"
+            rel="nofollow"
+            title="Link: https://en.wikipedia.org/wiki/Horace"
+            >Horace</a
+          >
+          describing time as a flowing river. On the
+          <i>New Chart of History</i>, he quotes Horace again, here from the
+          poem&nbsp;<i
+            ><a
+              href="https://en.wikipedia.org/wiki/Carmen_Saeculare"
+              target="_blank"
+              rel="nofollow"
+              title="Link: https://en.wikipedia.org/wiki/Carmen_Saeculare"
+              >Carmen Saeculare</a
+            ></i
+          >&nbsp;commissioned by
+          <a
+            href="https://en.wikipedia.org/wiki/Augustus"
+            target="_blank"
+            rel="nofollow"
+            title="Link: https://en.wikipedia.org/wiki/Augustus"
+            >Augustus</a
+          >&nbsp;in 17 BC to celebrate the beginning&nbsp;of a new era
+          or&nbsp;<i>saeculum</i>.
+          <span class="hl" id="carmen"
+            ><em>I</em
+            ><em>n lustrum meliusque semper Prorogat aevum.&nbsp;</em></span
+          >
+          new periods come better things. Poetic, yes, but technical, too. For
+          Priestley, chronographic time is&nbsp;<em>measured&nbsp;</em>time.
+        </p>
+      </section>
+      <section id="6" class="disabledbutton">
+        <h3>The Interval</h3>
+        <p>
+          <img
+            src="data/storymap/rinne/img/Tallents.jpg"
+            width="50%"
+            class="center"
+            id="imgVasi"
+          />
+        </p>
+        <p class="storyText">
+          Prior to Priestley, it&nbsp;was typical for chronology charts to
+          compress and expand time scales in opportunistic rather than
+          systematic ways. According to Francis Tallents's
+          <em>View of Universal History </em>(1685), Mahalaleel was born 65
+          years before Jared, and Jared was born 182 years before Enoch, yet on
+          his chart, these events are equally spaced. Tallents's chart did a
+          good job compressing data but did not depict shapes or patterns in
+          it.&nbsp;
+        </p>
+      </section>
+      <section id="7" class="disabledbutton">
+        <h3>The Timeline</h3>
+        <p class="storyText high">
+          The
+          <span class="hl" id="time">timeline in Priestley's charts </span>is
+          simple: dots, lines, and numbers run from left to right beginning in
+          1200 BC and ending in 1800 AD. From every century, a pinstripe runs
+          vertically, making columns of one hundred years.&nbsp;
+        </p>
+      </section>
+      <section id="8" class="disabledbutton">
+        <p class="storyText high">
+          The central visual argument of Priestley's chart is simple:
+          <em>time</em> in his chart of history&nbsp;is
+          like&nbsp;<em>space&nbsp;</em>on a geographic map. A key inspiration
+          for Priestley's charts was the&nbsp;<em>mappemonde</em>, which gave a
+          view of the whole world at a single glance.<em>&nbsp;</em>The&nbsp;<a
+            href="https://en.wikipedia.org/wiki/Mercator_projection"
+            target="_blank"
+            rel="nofollow"
+            >Mercator projection</a
+          >&nbsp;introduced in the 1560s&nbsp;produced a rectilinear grid much
+          like the one Priestley used in his charts.&nbsp;
+        </p>
+        <div
+          class="sezione"
+          id="sezAng"
+          style="display: none; padding-left: 10%"
+        >
+          <img
+            src="data/storymap/rinne/img/moulart.jpg"
+            width="80%"
+            style="
+              border: 20px solid rgba(85, 85, 85, 0.466);
+              border-radius: 1%;
+            "
+          />
+        </div>
+      </section>
+      <section id="9" class="disabledbutton">
+        <h3></h3>
+        <br />
+        <p>
+          <img
+            src="data/storymap/rinne/img/delisle.jpg"
+            width="100%"
+            class="center"
+          />
+        </p>
+        <p class="storyText high">
+          Priestley also drew inspiration from <em>historical maps</em>. Since
+          <a
+            href="https://en.wikipedia.org/wiki/Abraham_Ortelius"
+            target="_blank"
+            rel="nofollow"
+            title="Link: https://en.wikipedia.org/wiki/Abraham_Ortelius"
+            >Abraham Ortelius</a
+          >&nbsp;in the sixteenth century, such maps had been important tools
+          for humanistic study. In the eighteenth century, cartographers such as
+          <a
+            href="https://en.wikipedia.org/wiki/Guillaume_Delisle"
+            target="_blank"
+            rel="nofollow"
+            title="Link: https://en.wikipedia.org/wiki/Guillaume_Delisle"
+            >Guillaume Delisle</a
+          >&nbsp;continued this tradition. The image above shows Delisle's map
+          of the Western world in 400 AD. Delisle's maps aimed to show who ruled
+          what when, but, by their nature, they could only
+          show&nbsp;<em>moments&nbsp;</em>in time, while Priestley's aim was to
+          visualize change, and in particular, what he called "revolutions of
+          empire."&nbsp;Delisle was sensitive to this limitation and provided
+          extensive chronological information along with his&nbsp;maps. In our
+          own reconstruction of Priestley's geography, we have made use of
+          Delisle's maps to help us understand political geography as Priestley
+          understood it.
+        </p>
+      </section>
+      <section id="10" class="disabledbutton">
+        <h3>The two eyes of History</h3>
+        <p class="storyText">
+          In the seventeenth and eighteenth centuries, it was often said that
+          chronology and geography are "the two eyes of history," and often
+          works of historiography from the period contained chronological and
+          cartographical sections.&nbsp;A number of&nbsp;works in the eighteenth
+          century tried to incorporate chronological and geographical
+          information in a&nbsp;<i>single</i>&nbsp;graphic. In 1718, for
+          example,
+          <a
+            href="https://www.deutsche-biographie.de/sfz061_00063_1.html"
+            target="_blank"
+            rel="nofollow"
+            title="Link: https://www.deutsche-biographie.de/sfz061_00063_1.html"
+            >Johann Georg Hagelgans</a
+          >&nbsp;mashed up chronological tables and historical maps. His
+          chronological framework borrowed directly from the ages-old system of
+          <a
+            href="https://en.wikipedia.org/wiki/Eusebius"
+            target="_blank"
+            rel="nofollow"
+            title="Link: https://en.wikipedia.org/wiki/Eusebius"
+            >Eusebius</a
+          >: vertical columns represent nations while
+          (irregular)&nbsp;horizontal rows represent years in chronological
+          series. With great imagination, Hagelgans embroidered his table with
+          images of places and battles and, drawn&nbsp;as if laid upon the
+          table, maps illustrating key events.
+        </p>
+        <p>
+          <img
+            src="data/storymap/rinne/img/hagelgan.jpg"
+            width="100%"
+            class="center"
+          />
+        </p>
+      </section>
+    </div>
+    <button
+      onclick="topFunction()"
+      id="topBtn"
+      title="Go back to the beginning"
+    >
+      Top
+    </button>
+    <script src="assets/js/jquery.js"></script>
+
+    <script src="assets/js/geo-viewport.js"></script>
+    <script src="assets/js/storychart.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
